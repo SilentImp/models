@@ -1,0 +1,849 @@
+@-webkit-keyframes FireColor {
+  /* line 4, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@-moz-keyframes FireColor {
+  /* line 10, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@-ms-keyframes FireColor {
+  /* line 16, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@keyframes FireColor {
+  /* line 22, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@-webkit-keyframes fire {
+  /* line 28, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 32, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 35, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@-moz-keyframes fire {
+  /* line 42, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 46, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 49, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@-ms-keyframes fire {
+  /* line 56, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 60, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 63, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@keyframes fire {
+  /* line 70, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 74, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 77, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@-webkit-keyframes explodeSprite {
+  /* line 84, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@-moz-keyframes explodeSprite {
+  /* line 90, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@-ms-keyframes explodeSprite {
+  /* line 96, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@keyframes explodeSprite {
+  /* line 102, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@-webkit-keyframes arotateX {
+  /* line 108, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@-moz-keyframes arotateX {
+  /* line 114, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@-ms-keyframes arotateX {
+  /* line 120, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@keyframes arotateX {
+  /* line 126, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@-webkit-keyframes arotateY {
+  /* line 132, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-moz-keyframes arotateY {
+  /* line 138, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-ms-keyframes arotateY {
+  /* line 144, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes arotateY {
+  /* line 150, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes arotateZ {
+  /* line 156, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@-moz-keyframes arotateZ {
+  /* line 162, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@-ms-keyframes arotateZ {
+  /* line 168, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes arotateZ {
+  /* line 174, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+/* line 26, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(80deg) rotateY(180deg) scaleX(0.5) scaleY(0.5) scaleZ(0.5);
+  -moz-transform: rotateX(80deg) rotateY(180deg) scaleX(0.5) scaleY(0.5) scaleZ(0.5);
+  -ms-transform: rotateX(80deg) rotateY(180deg) scaleX(0.5) scaleY(0.5) scaleZ(0.5);
+  -o-transform: rotateX(80deg) rotateY(180deg) scaleX(0.5) scaleY(0.5) scaleZ(0.5);
+  transform: rotateX(80deg) rotateY(180deg) scaleX(0.5) scaleY(0.5) scaleZ(0.5);
+}
+/* line 41, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model > div {
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  backface-visibility: visible;
+  z-index: 1;
+}
+/* line 47, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-eye-left {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: -25px;
+  top: -25px;
+  display: block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  background: url("../images/eye.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px;
+  -moz-background-size: 25px;
+  -o-background-size: 25px;
+  background-size: 25px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: rotateY(90deg) translateZ(-25.5px) translateY(125px) rotateX(180deg) rotateZ(90deg);
+  -moz-transform: rotateY(90deg) translateZ(-25.5px) translateY(125px) rotateX(180deg) rotateZ(90deg);
+  -ms-transform: rotateY(90deg) translateZ(-25.5px) translateY(125px) rotateX(180deg) rotateZ(90deg);
+  -o-transform: rotateY(90deg) translateZ(-25.5px) translateY(125px) rotateX(180deg) rotateZ(90deg);
+  transform: rotateY(90deg) translateZ(-25.5px) translateY(125px) rotateX(180deg) rotateZ(90deg);
+}
+/* line 69, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-eye-right {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: -25px;
+  top: -25px;
+  display: block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  background: url("../images/eye.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px;
+  -moz-background-size: 25px;
+  -o-background-size: 25px;
+  background-size: 25px;
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-transform: rotateY(-90deg) translateZ(-25.5px) translateY(125px) rotateZ(-90deg);
+  -moz-transform: rotateY(-90deg) translateZ(-25.5px) translateY(125px) rotateZ(-90deg);
+  -ms-transform: rotateY(-90deg) translateZ(-25.5px) translateY(125px) rotateZ(-90deg);
+  -o-transform: rotateY(-90deg) translateZ(-25.5px) translateY(125px) rotateZ(-90deg);
+  transform: rotateY(-90deg) translateZ(-25.5px) translateY(125px) rotateZ(-90deg);
+}
+/* line 90, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .fire-wrapper-1 {
+  -webkit-transform-origin: 151px 50% 50%;
+  -moz-transform-origin: 151px 50% 50%;
+  -ms-transform-origin: 151px 50% 50%;
+  -o-transform-origin: 151px 50% 50%;
+  transform-origin: 151px 50% 50%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(90deg) translateZ(151px);
+  -moz-transform: rotateX(90deg) translateZ(151px);
+  -ms-transform: rotateX(90deg) translateZ(151px);
+  -o-transform: rotateX(90deg) translateZ(151px);
+  transform: rotateX(90deg) translateZ(151px);
+}
+/* line 98, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .fire-wrapper-2 {
+  -webkit-transform-origin: 153px 50% 50%;
+  -moz-transform-origin: 153px 50% 50%;
+  -ms-transform-origin: 153px 50% 50%;
+  -o-transform-origin: 153px 50% 50%;
+  transform-origin: 153px 50% 50%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(90deg) rotateZ(45deg) translateZ(153px);
+  -moz-transform: rotateX(90deg) rotateZ(45deg) translateZ(153px);
+  -ms-transform: rotateX(90deg) rotateZ(45deg) translateZ(153px);
+  -o-transform: rotateX(90deg) rotateZ(45deg) translateZ(153px);
+  transform: rotateX(90deg) rotateZ(45deg) translateZ(153px);
+}
+/* line 107, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .fire-wrapper-3 {
+  -webkit-transform-origin: 155px 50% 50%;
+  -moz-transform-origin: 155px 50% 50%;
+  -ms-transform-origin: 155px 50% 50%;
+  -o-transform-origin: 155px 50% 50%;
+  transform-origin: 155px 50% 50%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(90deg) rotateZ(90deg) translateZ(155px);
+  -moz-transform: rotateX(90deg) rotateZ(90deg) translateZ(155px);
+  -ms-transform: rotateX(90deg) rotateZ(90deg) translateZ(155px);
+  -o-transform: rotateX(90deg) rotateZ(90deg) translateZ(155px);
+  transform: rotateX(90deg) rotateZ(90deg) translateZ(155px);
+}
+/* line 117, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-fire-1 {
+  width: 64px;
+  height: 64px;
+  background: url(../images/explode.png) 0 0 no-repeat;
+  position: absolute;
+  left: -32px;
+  top: -32px;
+  -webkit-animation:  explodeSprite .6s 0s steps(6) infinite alternate, fire 1.2s 0s linear infinite ;
+  -moz-animation:  explodeSprite .6s 0s steps(6) infinite alternate, fire 1.2s 0s linear infinite ;
+  -ms-animation:  explodeSprite .6s 0s steps(6) infinite alternate, fire 1.2s 0s linear infinite ;
+  animation:  explodeSprite .6s 0s steps(6) infinite alternate, fire 1.2s 0s linear infinite ;
+}
+/* line 130, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-fire-2 {
+  width: 64px;
+  height: 64px;
+  background: url(../images/explode.png) 0 0 no-repeat;
+  position: absolute;
+  left: -32px;
+  top: -32px;
+  -webkit-animation:  explodeSprite .6s .2s steps(6) infinite alternate, fire 1.2s .4s linear infinite ;
+  -moz-animation:  explodeSprite .6s .2s steps(6) infinite alternate, fire 1.2s .4s linear infinite ;
+  -ms-animation:  explodeSprite .6s .2s steps(6) infinite alternate, fire 1.2s .4s linear infinite ;
+  animation:  explodeSprite .6s .2s steps(6) infinite alternate, fire 1.2s .4s linear infinite ;
+}
+/* line 143, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-fire-3 {
+  width: 64px;
+  height: 64px;
+  background: url(../images/explode.png) 0 0 no-repeat;
+  position: absolute;
+  left: -32px;
+  top: -32px;
+  -webkit-animation:  explodeSprite .6s .4s steps(6) infinite alternate, fire 1.2s .8s linear infinite ;
+  -moz-animation:  explodeSprite .6s .4s steps(6) infinite alternate, fire 1.2s .8s linear infinite ;
+  -ms-animation:  explodeSprite .6s .4s steps(6) infinite alternate, fire 1.2s .8s linear infinite ;
+  animation:  explodeSprite .6s .4s steps(6) infinite alternate, fire 1.2s .8s linear infinite ;
+}
+/* line 157, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-front {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  border-style: solid;
+  border-width: 50px 25px 25px 25px;
+  border-color: #e00 transparent transparent transparent;
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-transform-origin: 50px 0;
+  -moz-transform-origin: 50px 0;
+  -ms-transform-origin: 50px 0;
+  -o-transform-origin: 50px 0;
+  transform-origin: 50px 0;
+  -webkit-transform: rotateX(-30deg);
+  -moz-transform: rotateX(-30deg);
+  -ms-transform: rotateX(-30deg);
+  -o-transform: rotateX(-30deg);
+  transform: rotateX(-30deg);
+}
+/* line 178, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-side-1 {
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  left: -25px;
+  top: -50px;
+  display: block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  background: url("../images/plate.png") repeat;
+  z-index: 2;
+  -webkit-transform: translateZ(-25px) rotateY(180deg);
+  -moz-transform: translateZ(-25px) rotateY(180deg);
+  -ms-transform: translateZ(-25px) rotateY(180deg);
+  -o-transform: translateZ(-25px) rotateY(180deg);
+  transform: translateZ(-25px) rotateY(180deg);
+}
+/* line 187, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-side-2 {
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  left: -25px;
+  top: -50px;
+  display: block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  background: url("../images/plate.png") repeat;
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.75);
+  -webkit-transform: translateZ(25px);
+  -moz-transform: translateZ(25px);
+  -ms-transform: translateZ(25px);
+  -o-transform: translateZ(25px);
+  transform: translateZ(25px);
+}
+/* line 193, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-side-2 .bomb-front {
+  border-color: #a00 transparent transparent transparent;
+}
+/* line 199, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-side-3 {
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  left: -25px;
+  top: -50px;
+  display: block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  background: url("../images/plate.png") repeat;
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.4);
+  -webkit-transform: rotateY(90deg) translateZ(25px);
+  -moz-transform: rotateY(90deg) translateZ(25px);
+  -ms-transform: rotateY(90deg) translateZ(25px);
+  -o-transform: rotateY(90deg) translateZ(25px);
+  transform: rotateY(90deg) translateZ(25px);
+}
+/* line 206, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-side-3 .bomb-front {
+  border-color: #c00 transparent transparent transparent;
+}
+/* line 211, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-side-4 {
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  left: -25px;
+  top: -50px;
+  display: block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  background: url("../images/plate.png") repeat;
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.4);
+  -webkit-transform: rotateY(-90deg) translateZ(25px);
+  -moz-transform: rotateY(-90deg) translateZ(25px);
+  -ms-transform: rotateY(-90deg) translateZ(25px);
+  -o-transform: rotateY(-90deg) translateZ(25px);
+  transform: rotateY(-90deg) translateZ(25px);
+}
+/* line 218, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-side-4 .bomb-front {
+  border-color: #c00 transparent transparent transparent;
+}
+/* line 223, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-tail-1 {
+  width: 24px;
+  height: 100px;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  display: block;
+  background: url("../images/plate.png") repeat;
+  box-shadow: inset 0 -24px 0 0 rgba(0, 0, 0, 0.5), inset 0 20px 0 0 #333333, inset 0 40px 0 0 red;
+  -webkit-transform: rotateY(180deg) translateZ(12px) translateY(-150px);
+  -moz-transform: rotateY(180deg) translateZ(12px) translateY(-150px);
+  -ms-transform: rotateY(180deg) translateZ(12px) translateY(-150px);
+  -o-transform: rotateY(180deg) translateZ(12px) translateY(-150px);
+  transform: rotateY(180deg) translateZ(12px) translateY(-150px);
+}
+/* line 236, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-tail-2 {
+  width: 24px;
+  height: 100px;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  display: block;
+  background: url("../images/plate.png") repeat;
+  box-shadow: inset 0 -24px 0 0 rgba(0, 0, 0, 0.5), inset 0 0 0 100px rgba(0, 0, 0, 0.75), inset 0 20px 0 0 #333333, inset 0 40px 0 0 red;
+  -webkit-transform: translateZ(12px) translateY(-150px);
+  -moz-transform: translateZ(12px) translateY(-150px);
+  -ms-transform: translateZ(12px) translateY(-150px);
+  -o-transform: translateZ(12px) translateY(-150px);
+  transform: translateZ(12px) translateY(-150px);
+}
+/* line 250, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-tail-3 {
+  width: 24px;
+  height: 100px;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  display: block;
+  background: url("../images/plate.png") repeat;
+  box-shadow: inset 0 -24px 0 0 rgba(0, 0, 0, 0.5), inset 0 0 0 100px rgba(0, 0, 0, 0.4), inset 0 20px 0 0 #333333, inset 0 40px 0 0 red;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform: rotateY(90deg) translateZ(12px) translateY(-150px);
+  -moz-transform: rotateY(90deg) translateZ(12px) translateY(-150px);
+  -ms-transform: rotateY(90deg) translateZ(12px) translateY(-150px);
+  -o-transform: rotateY(90deg) translateZ(12px) translateY(-150px);
+  transform: rotateY(90deg) translateZ(12px) translateY(-150px);
+}
+/* line 265, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-tail-4 {
+  width: 24px;
+  height: 100px;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  display: block;
+  background: url("../images/plate.png") repeat;
+  box-shadow: inset 0 -24px 0 0 rgba(0, 0, 0, 0.5), inset 0 0 0 100px rgba(0, 0, 0, 0.4), inset 0 20px 0 0 #333333, inset 0 40px 0 0 red;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform: rotateY(-90deg) translateZ(12px) translateY(-150px);
+  -moz-transform: rotateY(-90deg) translateZ(12px) translateY(-150px);
+  -ms-transform: rotateY(-90deg) translateZ(12px) translateY(-150px);
+  -o-transform: rotateY(-90deg) translateZ(12px) translateY(-150px);
+  transform: rotateY(-90deg) translateZ(12px) translateY(-150px);
+}
+/* line 280, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-side-back {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  position: absolute;
+  left: -25px;
+  top: -25px;
+  -webkit-transform: rotateX(90deg) translateZ(50.5px);
+  -moz-transform: rotateX(90deg) translateZ(50.5px);
+  -ms-transform: rotateX(90deg) translateZ(50.5px);
+  -o-transform: rotateX(90deg) translateZ(50.5px);
+  transform: rotateX(90deg) translateZ(50.5px);
+}
+/* line 293, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-fire-hole {
+  width: 24px;
+  height: 24px;
+  background-color: #f60;
+  position: absolute;
+  left: -12px;
+  top: -12px;
+  -webkit-animation: FireColor 1s ease infinite alternate;
+  -moz-animation: FireColor 1s ease infinite alternate;
+  -ms-animation: FireColor 1s ease infinite alternate;
+  animation: FireColor 1s ease infinite alternate;
+  -webkit-transform: rotateX(90deg) translateZ(150.5px);
+  -moz-transform: rotateX(90deg) translateZ(150.5px);
+  -ms-transform: rotateX(90deg) translateZ(150.5px);
+  -o-transform: rotateX(90deg) translateZ(150.5px);
+  transform: rotateX(90deg) translateZ(150.5px);
+}
+/* line 309, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-wing-top-left {
+  width: 34px;
+  height: 20px;
+  background-color: #c00;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  -o-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: translateZ(12px) translateX(-34px) translateY(-130.5px) rotateY(45deg);
+  -moz-transform: translateZ(12px) translateX(-34px) translateY(-130.5px) rotateY(45deg);
+  -ms-transform: translateZ(12px) translateX(-34px) translateY(-130.5px) rotateY(45deg);
+  -o-transform: translateZ(12px) translateX(-34px) translateY(-130.5px) rotateY(45deg);
+  transform: translateZ(12px) translateX(-34px) translateY(-130.5px) rotateY(45deg);
+}
+/* line 327, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-wing-top-right {
+  width: 34px;
+  height: 20px;
+  background-color: #c00;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  -o-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: translateZ(-12px) translateX(-34px) translateY(-130.5px) rotateY(-45deg);
+  -moz-transform: translateZ(-12px) translateX(-34px) translateY(-130.5px) rotateY(-45deg);
+  -ms-transform: translateZ(-12px) translateX(-34px) translateY(-130.5px) rotateY(-45deg);
+  -o-transform: translateZ(-12px) translateX(-34px) translateY(-130.5px) rotateY(-45deg);
+  transform: translateZ(-12px) translateX(-34px) translateY(-130.5px) rotateY(-45deg);
+}
+/* line 345, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-wing-bottom-left {
+  width: 34px;
+  height: 20px;
+  background-color: #c00;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -o-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-transform: translateZ(12px) translateX(24px) translateY(-130.5px) rotateY(-45deg);
+  -moz-transform: translateZ(12px) translateX(24px) translateY(-130.5px) rotateY(-45deg);
+  -ms-transform: translateZ(12px) translateX(24px) translateY(-130.5px) rotateY(-45deg);
+  -o-transform: translateZ(12px) translateX(24px) translateY(-130.5px) rotateY(-45deg);
+  transform: translateZ(12px) translateX(24px) translateY(-130.5px) rotateY(-45deg);
+}
+/* line 363, /Users/silentimp/Games/Models/sass/bomb-model.scss */
+.bomb-model .bomb-wing-bottom-right {
+  width: 34px;
+  height: 20px;
+  background-color: #c00;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -o-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-transform: translateZ(-12px) translateX(24px) translateY(-130.5px) rotateY(45deg);
+  -moz-transform: translateZ(-12px) translateX(24px) translateY(-130.5px) rotateY(45deg);
+  -ms-transform: translateZ(-12px) translateX(24px) translateY(-130.5px) rotateY(45deg);
+  -o-transform: translateZ(-12px) translateX(24px) translateY(-130.5px) rotateY(45deg);
+  transform: translateZ(-12px) translateX(24px) translateY(-130.5px) rotateY(45deg);
+}

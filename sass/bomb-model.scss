@@ -1,0 +1,380 @@
+@import "compass";
+@import "mixin/*";
+
+@mixin bomb-side{
+	width: 50px;
+	height: 200px;
+	position: absolute;
+	left: -25px;
+	top: -50px;
+	display: block;
+	@include transform-style(preserve-3d);
+	@include transform-origin(50%, 0);
+	background: url('../images/plate.png') repeat;
+	}
+
+@mixin bomb-tail{
+	width: 24px;
+	height: 100px;
+	position: absolute;
+	left: -12px;
+	top: 0;
+	display: block;
+	background: url('../images/plate.png') repeat;
+	}
+
+.bomb-model{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 0;
+	height: 0;
+	@include transform-style(preserve-3d);
+	@include transform3d(
+		rotateX(80deg)
+		rotateY(180deg)
+		scaleX(0.5)
+		scaleY(0.5)
+		scaleZ(0.5)
+		);
+		
+	&>div{
+		// @include backface-visibility(hidden);
+		@include backface-visibility(visible);
+		z-index: 1;
+		}
+
+	.bomb-eye-left{
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		left: -25px;
+		top: -25px;
+		display: block;
+		@include transform-style(preserve-3d);
+		@include transform-origin(50% 50%);
+		background: url('../images/eye.png') 50% 50% no-repeat; 
+		@include background-size(25px);
+		@include backface-visibility(hidden);
+		
+		@include transform3d(
+			rotateY(90deg)
+			translateZ(-25.5px)
+			translateY(125px)
+			rotateX(180deg)
+			rotateZ(90deg)
+			);
+		}
+
+	.bomb-eye-right{
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		left: -25px;
+		top: -25px;
+		display: block;
+		@include transform-style(preserve-3d);
+		@include transform-origin(50% 50%);
+		background: url('../images/eye.png') 50% 50% no-repeat; 
+		@include background-size(25px);
+		@include backface-visibility(visible);
+		
+		@include transform3d(
+			rotateY(-90deg)
+			translateZ(-25.5px)
+			translateY(125px)
+			rotateZ(-90deg)
+			);
+		}
+
+	.fire-wrapper-1{
+		@include transform-origin(151px, 50%, 50%);
+		@include transform-style(preserve-3d);
+		@include transform3d(
+			rotateX(90deg)
+			translateZ(151px)
+			);
+		}
+	.fire-wrapper-2{
+		@include transform-origin(153px, 50%, 50%);
+		@include transform-style(preserve-3d);
+		@include transform3d(
+			rotateX(90deg)
+			rotateZ(45deg)
+			translateZ(153px)
+			);
+		}
+	.fire-wrapper-3{
+		@include transform-origin(155px, 50%, 50%);
+		@include transform-style(preserve-3d);
+		@include transform3d(
+			rotateX(90deg)
+			rotateZ(90deg)
+			translateZ(155px)
+			);
+		}
+
+	.bomb-fire-1{
+		width: 64px;
+		height: 64px;
+		background: url(../images/explode.png) 0 0 no-repeat;
+		position: absolute;
+		left: -32px;
+		top: -32px;
+		@include animate("
+			explodeSprite .6s 0s steps(6) infinite alternate,
+			fire 1.2s 0s linear infinite
+			");
+		}
+
+	.bomb-fire-2{
+		width: 64px;
+		height: 64px;
+		background: url(../images/explode.png) 0 0 no-repeat;
+		position: absolute;
+		left: -32px;
+		top: -32px;
+		@include animate("
+			explodeSprite .6s .2s steps(6) infinite alternate,
+			fire 1.2s .4s linear infinite
+			");
+		}
+
+	.bomb-fire-3{
+		width: 64px;
+		height: 64px;
+		background: url(../images/explode.png) 0 0 no-repeat;
+		position: absolute;
+		left: -32px;
+		top: -32px;
+		@include animate("
+			explodeSprite .6s .4s steps(6) infinite alternate,
+			fire 1.2s .8s linear infinite
+			");
+		}
+
+
+	.bomb-front{
+		display: block;
+		text-indent: -9999px;
+		overflow: hidden;
+		height: 0;
+		font-size: 0;
+		line-height: 0;
+		width: 0;
+		position: absolute;
+		left: 0;
+		top: 100%;
+		border-style: solid;
+		border-width: 50px 25px 25px 25px;
+		border-color: #e00 transparent transparent transparent;
+		@include backface-visibility(visible);
+		@include transform-origin(50px, 0);
+		@include transform3d(
+			rotateX(-30deg)
+			);
+		}
+
+	.bomb-side-1{
+		@include bomb-side;
+		z-index: 2;
+		@include transform3d(
+			translateZ(-25px)
+			rotateY(180deg)
+			);
+		}
+
+	.bomb-side-2{
+		@include bomb-side;
+		box-shadow:inset 0 0 0 200px rgba(0,0,0,.75);
+		@include transform3d(
+			translateZ(25px)
+			);
+		.bomb-front{
+			border-color: #a00 transparent transparent transparent;
+			}
+		}
+
+
+	.bomb-side-3{
+		@include bomb-side;
+		box-shadow:inset 0 0 0 200px rgba(0,0,0,.4);
+		@include transform3d(
+			rotateY(90deg)
+			translateZ(25px)
+			);
+		.bomb-front{
+			border-color: #c00 transparent transparent transparent;
+			}
+		}
+
+	.bomb-side-4{
+		@include bomb-side;
+		box-shadow:inset 0 0 0 200px rgba(0,0,0,.4);
+		@include transform3d(
+			rotateY(-90deg)
+			translateZ(25px)
+			);
+		.bomb-front{
+			border-color: #c00 transparent transparent transparent;
+			}
+		}
+
+	.bomb-tail-1{
+		@include bomb-tail;
+		box-shadow: 
+			inset 0 -24px 0 0 rgba(0,0,0,.5),
+			inset 0 20px 0 0 #333,
+			inset 0 40px 0 0 #f00;
+		@include transform3d(
+			rotateY(180deg)
+			translateZ(12px)
+			translateY(-150px)
+			);
+		}
+
+	.bomb-tail-2{
+		@include bomb-tail;
+		box-shadow: 
+			inset 0 -24px 0 0 rgba(0,0,0,.5),
+			inset 0 0 0 100px rgba(0,0,0,.75),
+			inset 0 20px 0 0 #333,
+			inset 0 40px 0 0 #f00;
+		@include transform3d(
+			translateZ(12px)
+			translateY(-150px)
+			);
+		}
+
+
+	.bomb-tail-3{
+		@include bomb-tail;
+		box-shadow: 
+			inset 0 -24px 0 0 rgba(0,0,0,.5),
+			inset 0 0 0 100px rgba(0,0,0,.4),
+			inset 0 20px 0 0 #333,
+			inset 0 40px 0 0 #f00;
+		@include transform-origin(50%, 0);
+		@include transform3d(
+			rotateY(90deg)
+			translateZ(12px)
+			translateY(-150px)
+			);
+		}
+
+	.bomb-tail-4{
+		@include bomb-tail;
+		box-shadow: 
+			inset 0 -24px 0 0 rgba(0,0,0,.5),
+			inset 0 0 0 100px rgba(0,0,0,.4),
+			inset 0 20px 0 0 #333,
+			inset 0 40px 0 0 #f00;
+		@include transform-origin(50%, 0);
+		@include transform3d(
+			rotateY(-90deg)
+			translateZ(12px)
+			translateY(-150px)
+			);
+		}
+
+	.bomb-side-back{
+		width: 50px;
+		height: 50px;
+		background-color: #000;
+		position: absolute;
+		left: -25px;
+		top: -25px;
+		@include transform3d(
+			rotateX(90deg)
+			translateZ(50.5px)
+			);
+		}
+
+	.bomb-fire-hole{
+		width: 24px;
+		height: 24px;
+		background-color: #f60;
+		position: absolute;
+		left: -12px;
+		top: -12px;
+		@include animate(
+			FireColor 1s ease infinite alternate
+			);
+		@include transform3d(
+			rotateX(90deg)
+			translateZ(150.5px)
+			);
+		}
+
+	.bomb-wing-top-left{
+		width: 34px;
+		height: 20px;
+		background-color: #c00;
+		position: absolute;
+		left: -12px;
+		top: 0;
+		display: block;
+		@include backface-visibility(visible);
+		@include transform-origin(100%, 0);
+		@include transform3d(
+			translateZ(12px)
+			translateX(-34px)
+			translateY(-130.5px)
+			rotateY(45deg)
+			);
+		}
+
+	.bomb-wing-top-right{
+		width: 34px;
+		height: 20px;
+		background-color: #c00;
+		position: absolute;
+		left: -12px;
+		top: 0;
+		display: block;
+		@include backface-visibility(visible);
+		@include transform-origin(100%, 0);
+		@include transform3d(
+			translateZ(-12px)
+			translateX(-34px)
+			translateY(-130.5px)
+			rotateY(-45deg)
+			);
+		}
+
+	.bomb-wing-bottom-left{
+		width: 34px;
+		height: 20px;
+		background-color: #c00;
+		position: absolute;
+		left: -12px;
+		top: 0;
+		display: block;
+		@include backface-visibility(visible);
+		@include transform-origin(0%, 0%);
+		@include transform3d(
+			translateZ(12px)
+			translateX(24px)
+			translateY(-130.5px)
+			rotateY(-45deg)
+			);
+		}
+
+	.bomb-wing-bottom-right{
+		width: 34px;
+		height: 20px;
+		background-color: #c00;
+		position: absolute;
+		left: -12px;
+		top: 0;
+		display: block;
+		@include backface-visibility(visible);
+		@include transform-origin(0%, 0%);
+		@include transform3d(
+			translateZ(-12px)
+			translateX(24px)
+			translateY(-130.5px)
+			rotateY(45deg)
+			);
+		}
+	}

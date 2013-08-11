@@ -1,0 +1,31 @@
+@-webkit-keyframes rotateX {
+  end--webkit-transform: rotateX(360deg);
+  end--moz-transform: rotateX(360deg);
+  end--ms-transform: rotateX(360deg);
+  end--o-transform: rotateX(360deg);
+  end-transform: rotateX(360deg);
+}
+
+@-moz-keyframes rotateX {
+  end--webkit-transform: rotateX(360deg);
+  end--moz-transform: rotateX(360deg);
+  end--ms-transform: rotateX(360deg);
+  end--o-transform: rotateX(360deg);
+  end-transform: rotateX(360deg);
+}
+
+@-ms-keyframes rotateX {
+  end--webkit-transform: rotateX(360deg);
+  end--moz-transform: rotateX(360deg);
+  end--ms-transform: rotateX(360deg);
+  end--o-transform: rotateX(360deg);
+  end-transform: rotateX(360deg);
+}
+
+@keyframes rotateX {
+  end--webkit-transform: rotateX(360deg);
+  end--moz-transform: rotateX(360deg);
+  end--ms-transform: rotateX(360deg);
+  end--o-transform: rotateX(360deg);
+  end-transform: rotateX(360deg);
+}

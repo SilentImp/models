@@ -1,0 +1,419 @@
+@import "compass";
+@import "mixin/*";
+
+@mixin cabin-side{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: -25px;
+	left: -25px;
+	display: block;
+	}
+
+@mixin cabin-side-long{
+	width: 70px;
+	height: 100px;
+	position: absolute;
+	top: -50px;
+	left: -35px;
+	display: block;
+	}
+
+@mixin cabin-side-wide{
+	width: 150px;
+	height: 70px;
+	position: absolute;
+	top: -35px;
+	left: -25px;
+	display: block;
+	}
+
+.plane-model{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 0;
+	height: 0;
+	@include transform-style(preserve-3d);
+	@include transform3d(
+		rotateX(80deg)
+		rotateY(0deg)
+		scaleX(.5)
+		scaleY(.5)
+		scaleZ(.5)
+		);
+	width: 0px;
+	height: 0px;
+	
+	.cabin-long{
+		position: absolute;
+		top: 0;
+		left: 0;
+		
+		@include transform-style(preserve-3d);
+		@include transform3d(
+			translateY(50px)
+			translateZ(-40px)
+		);
+
+		.cabin-side-1{
+			@include cabin-side-long;
+			background: url('../images/satellite.png') repeat;
+			@include background-size(50px);
+			@include transform3d(
+				translateZ(35px)
+				);
+			@include animate(FistBGColorX 6s infinite);
+			}
+
+		.cabin-side-2{
+			@include cabin-side-long;
+			background: url('../images/satellite.png') repeat;
+			@include background-size(50px);
+			@include transform3d(
+				translateZ(-35px)
+				);
+			@include box-shadow(inset 0 0 0 150px rgba(0,0,0,.5));
+			@include animate(FistBGColorX 6s infinite);
+			}
+			
+		.cabin-side-3{
+			width: 70px;
+			height: 70px;
+			position: absolute;
+			top: -35px;
+			left: -35px;
+			background: url('../images/front.png') repeat;
+			@include background-size(cover);
+			@include transform3d(
+				rotateX(-90deg)
+				translateZ(-50.5px)
+				);
+			@include animate(FistBGColorX 6s infinite);
+			}
+
+		.cabin-side-4{
+			width: 70px;
+			height: 70px;
+			position: absolute;
+			top: -35px;
+			left: -35px;
+			background: url('../images/satellite.png') repeat;
+			@include background-size(50px);
+			@include transform3d(
+				rotateX(90deg)
+				translateZ(-50.5px) 
+				);
+			@include box-shadow(inset 0 0 0 100px rgba(73,78,83,.3));
+			@include animate(FistBGColorX 6s infinite);
+			}
+
+		.cabin-side-5{
+			background: url('../images/satellite.png') repeat;
+			@include background-size(50px);
+			@include transform3d(
+				rotateY(90deg)
+				translateZ(35px)
+				);
+			@include cabin-side-long;
+			@include box-shadow(inset 0 0 0 100px rgba(73,78,83,.3));
+			@include animate(FistBGColorX 6s infinite);
+			}
+
+		.cabin-side-6{
+			background: url('../images/satellite.png') repeat;
+			@include background-size(50px);
+			@include transform3d(
+				rotateY(-90deg)
+				translateZ(35px)
+				);
+			@include cabin-side-long;
+			@include box-shadow(inset 0 0 0 100px rgba(73,78,83,.3));
+			@include animate(FistBGColorX 6s infinite);
+			}
+		}
+	
+	.cabin{
+		position: absolute;
+		top: 0;
+		left: 0;
+		
+		@include transform-style(preserve-3d);
+		@include transform3d(
+			translateY(124px)
+			translateZ(-20px)
+			rotateY(45deg)
+		);
+
+		.cabin-side-1{
+			@include cabin-side;
+			background: url('../images/satellite.png') repeat;
+			@include background-size(50px);
+			@include transform3d(
+				translateZ(25px)
+				);
+			@include animate(FistBGColorX 6s infinite);
+			}
+
+		.cabin-side-2{
+			@include cabin-side;
+			background: url('../images/satellite.png') repeat;
+			@include background-size(50px);
+			@include transform3d(
+				translateZ(-25px)
+				);
+			@include box-shadow(inset 0 0 0 150px rgba(0,0,0,.5));
+			@include animate(FistBGColorX 6s infinite);
+			}
+			
+		.cabin-side-3{
+			background: url('../images/glass.jpg') repeat;
+			background: url('../images/force.png') repeat;
+			// @include background-size(cover);
+			@include transform3d(
+				rotateX(-90deg)
+				translateZ(25px)
+				);
+			@include cabin-side;
+			@include box-shadow(inset 0 0 0 2px rgba(73,78,83,1));
+			opacity: 1;
+			@include animate(force 2s infinite alternate);
+			}
+
+		.cabin-side-4{
+			background: url('../images/front.png') repeat;
+			@include background-size(50px);
+			@include transform3d(
+				rotateX(90deg)
+				translateZ(25px)
+				);
+			@include cabin-side;
+			@include box-shadow(inset 0 0 0 100px rgba(73,78,83,.3));
+			@include animate(FistBGColorX 6s infinite);
+			}
+
+		.cabin-side-5{
+			background: url('../images/satellite.png') repeat;
+			@include background-size(50px);
+			@include transform3d(
+				rotateY(90deg)
+				translateZ(25px)
+				);
+			@include cabin-side;
+			@include box-shadow(inset 0 0 0 100px rgba(73,78,83,.3));
+			@include animate(FistBGColorX 6s infinite);
+			}
+
+		.cabin-side-6{
+			background: url('../images/satellite.png') repeat;
+			@include background-size(50px);
+			@include animate(FistBGColorX 6s infinite);
+			@include transform3d(
+				rotateY(-90deg)
+				translateZ(25px)
+				);
+			@include cabin-side;
+			@include box-shadow(inset 0 0 0 100px rgba(73,78,83,.3));
+			}
+		}
+
+	.wing{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 0;
+		height: 0;
+		@include transform-style(preserve-3d);
+		@include transform3d(
+			translateX(-75px)
+			translateY(35px)
+			);
+				
+		&.left{
+			@include transform3d(
+				translateX(-186.5px)
+				rotateX(-30deg)
+				translateY(20px)
+				);
+			}
+		&.right{
+			@include transform3d(
+				translateX(36.5px)
+				rotateX(-30deg)
+				translateY(20px)
+				);
+			}
+
+		.side-1{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 150px;
+			height: 100px;
+			
+			// background: url('../images/satellite.png') repeat;
+			// @include background-size(85px);
+			// @include animate(FistBGColorX 6s infinite);
+			background: url(../images/white.jpg) repeat;
+			@include background-size(84px auto);
+			
+			@include transform-style(preserve-3d);
+			@include transform3d(
+				translateZ(75px)
+				);
+			}
+		.side-2{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 150px;
+			height: 100px;
+			background-color: #fff;
+			
+			background: url(../images/white.jpg) repeat;
+			@include background-size(84px auto);
+			
+			// background: url('../images/satellite.png') repeat;
+			// @include background-size(85px);
+			// @include animate(FistBGColorX 6s infinite);
+			
+			@include transform-style(preserve-3d);
+			@include transform3d(
+				translateZ(-75px)
+				);
+			@include box-shadow(inset 0 0 0 150px rgba(0,0,0,.5));
+			}
+		.side-3{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 150px;
+			height: 100px;
+			
+			background: url(../images/white.jpg) repeat;
+			@include background-size(84px auto);
+			
+			// background: url('../images/satellite.png') repeat;
+			// @include background-size(85px);
+			// @include animate(FistBGColorX 6s infinite);
+			
+			@include transform-origin(50%, 100%, 0);
+			@include transform-style(preserve-3d);
+			@include transform3d(
+				rotateY(90deg)
+				translateZ(-75px)
+				);
+			@include box-shadow(inset 0 0 0 150px rgba(0,0,0,.2));
+			}
+		.side-4{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 150px;
+			height: 100px;
+			
+			background: url(../images/white.jpg) repeat;
+			@include background-size(84px auto);
+			
+			// background: url('../images/satellite.png') repeat;
+			// @include background-size(85px);
+			// @include animate(FistBGColorX 6s infinite);
+			
+			@include transform-origin(50%, 100%, 0);
+			@include transform-style(preserve-3d);
+			@include transform3d(
+				rotateY(90deg)
+				translateZ(75px)
+				);
+			@include box-shadow(inset 0 0 0 150px rgba(0,0,0,.2));
+			}
+		.side-5{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 210px;
+			height: 1px;
+			
+			background-color: #000; 
+
+			@include transform-origin(50%, 50%, 0);
+			@include transform-style(preserve-3d);
+			@include transform3d(
+				rotateX(90deg)
+				translateX(-30px)
+				rotateZ(45deg)
+				translateZ(-55px)
+				translateY(-2px)
+				);
+			}
+		.side-6{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 210px;
+			height: 1px;
+			
+			background-color: #000; 
+
+			@include transform-origin(50%, 50%, 0);
+			@include transform-style(preserve-3d);
+			@include transform3d(
+				rotateX(90deg)
+				translateX(-30px)
+				rotateZ(-45deg)
+				translateZ(-45px)
+				translateY(-2px)
+				);
+			}
+		.plate-1{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 106px;
+			height: 106px;
+			background: url(../images/round.png) 50% 50% no-repeat;
+			@include background-size(20% 20%);
+			@include transform-origin(50%, 50%, 50%);
+			@include transform-style(preserve-3d);
+			@include transform3d(
+				rotateX(90deg)
+				translateX(22px)
+				translateZ(-6px)
+				translateY(-3px)
+				);
+			}
+		.plate-2{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 106px;
+			height: 106px;
+			background: url(../images/round.png) 50% 50% no-repeat;
+			@include background-size(20% 20%);
+			@include transform-origin(50%, 50%, 50%);
+			@include transform-style(preserve-3d);
+			@include transform3d(
+				rotateX(90deg)
+				translateX(22px)
+				translateZ(10px)
+				translateY(-3px)
+				);
+			}
+		.airscrew{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 106px;
+			height: 106px;
+			background: url(../images/vint.png) 50% 50% no-repeat;
+			@include background-size(80% 80%);
+			@include transform-origin(50%, 50%, 50%);
+			@include transform-style(preserve-3d);
+			@include transform3d(
+				rotateX(90deg)
+				translateX(22px)
+				);
+			@include animate(airscrew .5s linear infinite);
+			}
+		}
+	}

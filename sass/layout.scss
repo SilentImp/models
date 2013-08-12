@@ -11,6 +11,8 @@ html{
 		position: relative;
 		@include perspective(800px);
 		@include transform-style(preserve-3d);
+		overflow: hidden;
+		z-index: 1;
 		&.air{
 			background: #0e3e7c url('../images/bg.png') 50% 100% repeat-x;
 			}

@@ -1,5 +1,98 @@
 @import "compass";
 
+@-webkit-keyframes force{
+	100% {
+		opacity: .75;
+		}
+	}
+	
+@-moz-keyframes force{ 
+	100% {
+		opacity: .75;
+		}
+	}
+	
+@-ms-keyframes force{ 
+	100% {
+		opacity: .75;
+		}
+	}
+	
+@keyframes force{ 
+	100% {
+		opacity: .75;
+		}
+	}
+
+@-webkit-keyframes airscrew{
+	0% {
+		@include transform(
+			rotateX(90deg)
+			translateX(22px)
+			rotateZ(0deg)
+			);
+		}
+	100% {
+		@include transform(
+			rotateX(90deg)
+			translateX(22px)
+			rotateZ(360deg)
+			);
+		}
+	}
+	
+@-moz-keyframes airscrew{ 
+	0% {
+		@include transform(
+			rotateX(90deg)
+			translateX(22px)
+			rotateZ(0deg)
+			);
+		}
+	100% {
+		@include transform(
+			rotateX(90deg)
+			translateX(22px)
+			rotateZ(360deg)
+			);
+		}
+	}
+	
+@-ms-keyframes airscrew{ 
+	0% {
+		@include transform(
+			rotateX(90deg)
+			translateX(22px)
+			rotateZ(0deg)
+			);
+		}
+	100% {
+		@include transform(
+			rotateX(90deg)
+			translateX(22px)
+			rotateZ(360deg)
+			);
+		}
+	}
+	
+@keyframes airscrew{ 
+	0% {
+		@include transform(
+			rotateX(90deg)
+			translateX(22px)
+			rotateZ(0deg)
+			);
+		}
+	100% {
+		@include transform(
+			rotateX(90deg)
+			translateX(22px)
+			rotateZ(360deg)
+			);
+		}
+	}
+
+
 @-webkit-keyframes BGposX{
 	from {
 		background-position: 

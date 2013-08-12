@@ -19,9 +19,9 @@
 	@include transform-style(preserve-3d);
 	@include transform3d(
 		rotateX(45deg)
-		scaleX(.5)
-		scaleY(.5)
-		scaleZ(.5)
+		scaleX(.75)
+		scaleY(.75)
+		scaleZ(.75)
 		);
 	
 	&>div{
@@ -190,6 +190,7 @@
 		@include transform3d(
 			translateZ(25px)
 			);
+		@include animate(FistBGColorX 6s infinite);
 		}
 
 	.satellite-side-2{
@@ -199,6 +200,7 @@
 		@include transform3d(
 			translateZ(-25px)
 			);
+		@include animate(FistBGColorX 6s infinite);
 		}
 
 	.satellite-side-3{
@@ -209,6 +211,7 @@
 			translateZ(25px)
 			);
 		@include satellite-side;
+		@include animate(FistBGColorX 6s infinite);
 		}
 
 	.satellite-side-4{
@@ -219,6 +222,7 @@
 			translateZ(25px)
 			);
 		@include satellite-side;
+		@include animate(FistBGColorX 6s infinite);
 		}
 
 	.satellite-side-5{
@@ -229,6 +233,7 @@
 			translateZ(25px)
 			);
 		@include satellite-side;
+		@include animate(FistBGColorX 6s infinite);
 		}
 
 	.satellite-side-6{
@@ -239,6 +244,7 @@
 			translateZ(25px)
 			);
 		@include satellite-side;
+		@include animate(FistBGColorX 6s infinite);
 		}
 
 	}

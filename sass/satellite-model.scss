@@ -1,0 +1,244 @@
+@import "compass";
+@import "mixin/*";
+
+@mixin satellite-side{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: -25px;
+	left: -25px;
+	display: block;
+	}
+
+.satellite-model{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 0;
+	height: 0;
+	@include transform-style(preserve-3d);
+	@include transform3d(
+		rotateX(45deg)
+		scaleX(.5)
+		scaleY(.5)
+		scaleZ(.5)
+		);
+	
+	&>div{
+		@include backface-visibility(visible);
+		z-index: 1;
+		}
+
+	.satellite-wing{
+		width: 75px;
+		height: 50px;
+		position: absolute;
+		top: -25px;
+		left: -25px;
+		display: block;
+		@include transform-style(preserve-3d);
+		@include transform-origin(0);
+		@include transform3d(
+			translateX(53px)
+			rotateY(-15deg)
+			rotateX(-10deg)
+			);
+		background: url('../images/cell.png') repeat;
+		@include background-size(50px 50px);
+	
+		.satellite-wing-inner{
+			width: 75px;
+			height: 50px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			@include transform-origin(0);
+			@include transform3d(
+				translateX(76px)
+				rotateY(15deg)
+				);
+			background: url('../images/cell.png') repeat;
+			@include background-size(50px 50px);
+			}
+		}
+
+	.satellite-eye-1{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateX(-90deg)
+			translateZ(27px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-2{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateX(-90deg)
+			translateZ(28px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-3{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateX(-90deg)
+			translateZ(29px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-4{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateX(-90deg)
+			translateZ(30px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-5{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateY(-90deg)
+			translateZ(27px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-6{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateY(-90deg)
+			translateZ(28px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-7{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateY(-90deg)
+			translateZ(29px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-8{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateY(-90deg)
+			translateZ(30px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-9{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateX(90deg)
+			translateZ(27px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-10{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateX(90deg)
+			translateZ(28px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-11{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateX(90deg)
+			translateZ(29px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-eye-12{
+		background: url('../images/lens.png') 50% 50% no-repeat;
+		@include background-size(25px 25px);
+		@include transform3d(
+			rotateX(90deg)
+			translateZ(30px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-side-1{
+		@include satellite-side;
+		background: url('../images/satellite.png') repeat;
+		@include background-size(cover);
+		@include transform3d(
+			translateZ(25px)
+			);
+		}
+
+	.satellite-side-2{
+		@include satellite-side;
+		background: url('../images/satellite.png') repeat;
+		@include background-size(cover);
+		@include transform3d(
+			translateZ(-25px)
+			);
+		}
+
+	.satellite-side-3{
+		background: url('../images/satellite.png') repeat;
+		@include background-size(cover);
+		@include transform3d(
+			rotateX(90deg)
+			translateZ(25px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-side-4{
+		background: url('../images/satellite.png') repeat;
+		@include background-size(cover);
+		@include transform3d(
+			rotateX(-90deg)
+			translateZ(25px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-side-5{
+		background: url('../images/satellite.png') repeat;
+		@include background-size(cover);
+		@include transform3d(
+			rotateY(90deg)
+			translateZ(25px)
+			);
+		@include satellite-side;
+		}
+
+	.satellite-side-6{
+		background: url('../images/satellite.png') repeat;
+		@include background-size(cover);
+		@include transform3d(
+			rotateY(-90deg)
+			translateZ(25px)
+			);
+		@include satellite-side;
+		}
+
+	}

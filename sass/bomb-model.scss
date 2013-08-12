@@ -11,6 +11,7 @@
 	@include transform-style(preserve-3d);
 	@include transform-origin(50%, 0);
 	background: url('../images/plate.png') repeat;
+	@include background-size(256px 256px);
 	}
 
 @mixin bomb-tail{
@@ -39,7 +40,6 @@
 		);
 		
 	&>div{
-		// @include backface-visibility(hidden);
 		@include backface-visibility(visible);
 		z-index: 1;
 		}

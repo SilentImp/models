@@ -1,0 +1,842 @@
+@-webkit-keyframes BGposX {
+  /* line 4, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  from {
+    background-position: 50% 50%, 0 200px;
+  }
+
+  /* line 9, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  to {
+    background-position: 50% 50%, 0 0;
+  }
+}
+
+@-webkit-keyframes BGpos {
+  /* line 17, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  from {
+    background-position: 0 0, 50% 50%, 0 200px;
+  }
+
+  /* line 23, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  to {
+    background-position: 0 0, 50% 50%, 0 0;
+  }
+}
+
+@-webkit-keyframes FistBGColorX {
+  /* line 33, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    background-color: #3ff;
+  }
+
+  /* line 36, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  33% {
+    background-color: #00ff24;
+  }
+
+  /* line 39, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  66% {
+    background-color: #0ff;
+  }
+
+  /* line 42, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #3ff;
+  }
+}
+
+@-moz-keyframes FistBGColorX {
+  /* line 48, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    background-color: #3ff;
+  }
+
+  /* line 51, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  33% {
+    background-color: #00ff24;
+  }
+
+  /* line 54, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  66% {
+    background-color: #0ff;
+  }
+
+  /* line 57, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #3ff;
+  }
+}
+
+@-ms-keyframes FistBGColorX {
+  /* line 63, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    background-color: #3ff;
+  }
+
+  /* line 66, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  33% {
+    background-color: #00ff24;
+  }
+
+  /* line 69, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  66% {
+    background-color: #0ff;
+  }
+
+  /* line 72, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #3ff;
+  }
+}
+
+@keyframes FistBGColorX {
+  /* line 78, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    background-color: #3ff;
+  }
+
+  /* line 81, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  33% {
+    background-color: #00ff24;
+  }
+
+  /* line 84, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  66% {
+    background-color: #0ff;
+  }
+
+  /* line 87, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #3ff;
+  }
+}
+
+@-webkit-keyframes FireColor {
+  /* line 94, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@-moz-keyframes FireColor {
+  /* line 100, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@-ms-keyframes FireColor {
+  /* line 106, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@keyframes FireColor {
+  /* line 112, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@-webkit-keyframes fire {
+  /* line 118, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 122, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 125, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@-moz-keyframes fire {
+  /* line 132, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 136, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 139, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@-ms-keyframes fire {
+  /* line 146, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 150, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 153, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@keyframes fire {
+  /* line 160, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 164, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 167, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@-webkit-keyframes explodeSprite {
+  /* line 174, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@-moz-keyframes explodeSprite {
+  /* line 180, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@-ms-keyframes explodeSprite {
+  /* line 186, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@keyframes explodeSprite {
+  /* line 192, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@-webkit-keyframes arotateX {
+  /* line 198, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@-moz-keyframes arotateX {
+  /* line 204, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@-ms-keyframes arotateX {
+  /* line 210, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@keyframes arotateX {
+  /* line 216, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@-webkit-keyframes arotateY {
+  /* line 222, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-moz-keyframes arotateY {
+  /* line 228, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-ms-keyframes arotateY {
+  /* line 234, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes arotateY {
+  /* line 240, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes arotateZ {
+  /* line 246, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@-moz-keyframes arotateZ {
+  /* line 252, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@-ms-keyframes arotateZ {
+  /* line 258, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes arotateZ {
+  /* line 264, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+/* line 13, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(45deg) scaleX(0.5) scaleY(0.5) scaleZ(0.5);
+  -moz-transform: rotateX(45deg) scaleX(0.5) scaleY(0.5) scaleZ(0.5);
+  -ms-transform: rotateX(45deg) scaleX(0.5) scaleY(0.5) scaleZ(0.5);
+  -o-transform: rotateX(45deg) scaleX(0.5) scaleY(0.5) scaleZ(0.5);
+  transform: rotateX(45deg) scaleX(0.5) scaleY(0.5) scaleZ(0.5);
+}
+/* line 27, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model > div {
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  backface-visibility: visible;
+  z-index: 1;
+}
+/* line 32, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-wing {
+  width: 75px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transform: translateX(53px) rotateY(-15deg) rotateX(-10deg);
+  -moz-transform: translateX(53px) rotateY(-15deg) rotateX(-10deg);
+  -ms-transform: translateX(53px) rotateY(-15deg) rotateX(-10deg);
+  -o-transform: translateX(53px) rotateY(-15deg) rotateX(-10deg);
+  transform: translateX(53px) rotateY(-15deg) rotateX(-10deg);
+  background: url("../images/cell.png") repeat;
+  -webkit-background-size: 50px 50px;
+  -moz-background-size: 50px 50px;
+  -o-background-size: 50px 50px;
+  background-size: 50px 50px;
+}
+/* line 49, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-wing .satellite-wing-inner {
+  width: 75px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transform: translateX(76px) rotateY(15deg);
+  -moz-transform: translateX(76px) rotateY(15deg);
+  -ms-transform: translateX(76px) rotateY(15deg);
+  -o-transform: translateX(76px) rotateY(15deg);
+  transform: translateX(76px) rotateY(15deg);
+  background: url("../images/cell.png") repeat;
+  -webkit-background-size: 50px 50px;
+  -moz-background-size: 50px 50px;
+  -o-background-size: 50px 50px;
+  background-size: 50px 50px;
+}
+/* line 66, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-1 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateX(-90deg) translateZ(27px);
+  -moz-transform: rotateX(-90deg) translateZ(27px);
+  -ms-transform: rotateX(-90deg) translateZ(27px);
+  -o-transform: rotateX(-90deg) translateZ(27px);
+  transform: rotateX(-90deg) translateZ(27px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 76, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-2 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateX(-90deg) translateZ(28px);
+  -moz-transform: rotateX(-90deg) translateZ(28px);
+  -ms-transform: rotateX(-90deg) translateZ(28px);
+  -o-transform: rotateX(-90deg) translateZ(28px);
+  transform: rotateX(-90deg) translateZ(28px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 86, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-3 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateX(-90deg) translateZ(29px);
+  -moz-transform: rotateX(-90deg) translateZ(29px);
+  -ms-transform: rotateX(-90deg) translateZ(29px);
+  -o-transform: rotateX(-90deg) translateZ(29px);
+  transform: rotateX(-90deg) translateZ(29px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 96, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-4 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateX(-90deg) translateZ(30px);
+  -moz-transform: rotateX(-90deg) translateZ(30px);
+  -ms-transform: rotateX(-90deg) translateZ(30px);
+  -o-transform: rotateX(-90deg) translateZ(30px);
+  transform: rotateX(-90deg) translateZ(30px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 106, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-5 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateY(-90deg) translateZ(27px);
+  -moz-transform: rotateY(-90deg) translateZ(27px);
+  -ms-transform: rotateY(-90deg) translateZ(27px);
+  -o-transform: rotateY(-90deg) translateZ(27px);
+  transform: rotateY(-90deg) translateZ(27px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 116, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-6 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateY(-90deg) translateZ(28px);
+  -moz-transform: rotateY(-90deg) translateZ(28px);
+  -ms-transform: rotateY(-90deg) translateZ(28px);
+  -o-transform: rotateY(-90deg) translateZ(28px);
+  transform: rotateY(-90deg) translateZ(28px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 126, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-7 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateY(-90deg) translateZ(29px);
+  -moz-transform: rotateY(-90deg) translateZ(29px);
+  -ms-transform: rotateY(-90deg) translateZ(29px);
+  -o-transform: rotateY(-90deg) translateZ(29px);
+  transform: rotateY(-90deg) translateZ(29px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 136, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-8 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateY(-90deg) translateZ(30px);
+  -moz-transform: rotateY(-90deg) translateZ(30px);
+  -ms-transform: rotateY(-90deg) translateZ(30px);
+  -o-transform: rotateY(-90deg) translateZ(30px);
+  transform: rotateY(-90deg) translateZ(30px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 146, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-9 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateX(90deg) translateZ(27px);
+  -moz-transform: rotateX(90deg) translateZ(27px);
+  -ms-transform: rotateX(90deg) translateZ(27px);
+  -o-transform: rotateX(90deg) translateZ(27px);
+  transform: rotateX(90deg) translateZ(27px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 156, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-10 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateX(90deg) translateZ(28px);
+  -moz-transform: rotateX(90deg) translateZ(28px);
+  -ms-transform: rotateX(90deg) translateZ(28px);
+  -o-transform: rotateX(90deg) translateZ(28px);
+  transform: rotateX(90deg) translateZ(28px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 166, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-11 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateX(90deg) translateZ(29px);
+  -moz-transform: rotateX(90deg) translateZ(29px);
+  -ms-transform: rotateX(90deg) translateZ(29px);
+  -o-transform: rotateX(90deg) translateZ(29px);
+  transform: rotateX(90deg) translateZ(29px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 176, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-eye-12 {
+  background: url("../images/lens.png") 50% 50% no-repeat;
+  -webkit-background-size: 25px 25px;
+  -moz-background-size: 25px 25px;
+  -o-background-size: 25px 25px;
+  background-size: 25px 25px;
+  -webkit-transform: rotateX(90deg) translateZ(30px);
+  -moz-transform: rotateX(90deg) translateZ(30px);
+  -ms-transform: rotateX(90deg) translateZ(30px);
+  -o-transform: rotateX(90deg) translateZ(30px);
+  transform: rotateX(90deg) translateZ(30px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 186, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-side-1 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+  background: url("../images/satellite.png") repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transform: translateZ(25px);
+  -moz-transform: translateZ(25px);
+  -ms-transform: translateZ(25px);
+  -o-transform: translateZ(25px);
+  transform: translateZ(25px);
+}
+/* line 195, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-side-2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+  background: url("../images/satellite.png") repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transform: translateZ(-25px);
+  -moz-transform: translateZ(-25px);
+  -ms-transform: translateZ(-25px);
+  -o-transform: translateZ(-25px);
+  transform: translateZ(-25px);
+}
+/* line 204, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-side-3 {
+  background: url("../images/satellite.png") repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transform: rotateX(90deg) translateZ(25px);
+  -moz-transform: rotateX(90deg) translateZ(25px);
+  -ms-transform: rotateX(90deg) translateZ(25px);
+  -o-transform: rotateX(90deg) translateZ(25px);
+  transform: rotateX(90deg) translateZ(25px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 214, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-side-4 {
+  background: url("../images/satellite.png") repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transform: rotateX(-90deg) translateZ(25px);
+  -moz-transform: rotateX(-90deg) translateZ(25px);
+  -ms-transform: rotateX(-90deg) translateZ(25px);
+  -o-transform: rotateX(-90deg) translateZ(25px);
+  transform: rotateX(-90deg) translateZ(25px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 224, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-side-5 {
+  background: url("../images/satellite.png") repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transform: rotateY(90deg) translateZ(25px);
+  -moz-transform: rotateY(90deg) translateZ(25px);
+  -ms-transform: rotateY(90deg) translateZ(25px);
+  -o-transform: rotateY(90deg) translateZ(25px);
+  transform: rotateY(90deg) translateZ(25px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}
+/* line 234, /Users/silentimp/Games/models/sass/satellite-model.scss */
+.satellite-model .satellite-side-6 {
+  background: url("../images/satellite.png") repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transform: rotateY(-90deg) translateZ(25px);
+  -moz-transform: rotateY(-90deg) translateZ(25px);
+  -ms-transform: rotateY(-90deg) translateZ(25px);
+  -o-transform: rotateY(-90deg) translateZ(25px);
+  transform: rotateY(-90deg) translateZ(25px);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+}

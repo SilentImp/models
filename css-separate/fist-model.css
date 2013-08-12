@@ -1,0 +1,1309 @@
+@-webkit-keyframes BGposX {
+  /* line 4, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  from {
+    background-position: 50% 50%, 0 200px;
+  }
+
+  /* line 9, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  to {
+    background-position: 50% 50%, 0 0;
+  }
+}
+
+@-webkit-keyframes BGpos {
+  /* line 17, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  from {
+    background-position: 0 0, 50% 50%, 0 200px;
+  }
+
+  /* line 23, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  to {
+    background-position: 0 0, 50% 50%, 0 0;
+  }
+}
+
+@-webkit-keyframes FistBGColorX {
+  /* line 33, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    background-color: #3ff;
+  }
+
+  /* line 36, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  33% {
+    background-color: #00ff24;
+  }
+
+  /* line 39, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  66% {
+    background-color: #0ff;
+  }
+
+  /* line 42, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #3ff;
+  }
+}
+
+@-moz-keyframes FistBGColorX {
+  /* line 48, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    background-color: #3ff;
+  }
+
+  /* line 51, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  33% {
+    background-color: #00ff24;
+  }
+
+  /* line 54, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  66% {
+    background-color: #0ff;
+  }
+
+  /* line 57, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #3ff;
+  }
+}
+
+@-ms-keyframes FistBGColorX {
+  /* line 63, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    background-color: #3ff;
+  }
+
+  /* line 66, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  33% {
+    background-color: #00ff24;
+  }
+
+  /* line 69, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  66% {
+    background-color: #0ff;
+  }
+
+  /* line 72, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #3ff;
+  }
+}
+
+@keyframes FistBGColorX {
+  /* line 78, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    background-color: #3ff;
+  }
+
+  /* line 81, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  33% {
+    background-color: #00ff24;
+  }
+
+  /* line 84, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  66% {
+    background-color: #0ff;
+  }
+
+  /* line 87, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #3ff;
+  }
+}
+
+@-webkit-keyframes FireColor {
+  /* line 94, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@-moz-keyframes FireColor {
+  /* line 100, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@-ms-keyframes FireColor {
+  /* line 106, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@keyframes FireColor {
+  /* line 112, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-color: #f00;
+  }
+}
+
+@-webkit-keyframes fire {
+  /* line 118, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 122, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 125, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@-moz-keyframes fire {
+  /* line 132, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 136, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 139, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@-ms-keyframes fire {
+  /* line 146, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 150, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 153, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@keyframes fire {
+  /* line 160, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  0% {
+    -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -ms-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    -o-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    transform: scale(0.8) rotateZ(0deg) translateZ(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 164, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    opacity: 0.9;
+  }
+
+  /* line 167, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -moz-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -ms-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    -o-transform: scale(2) rotateZ(180deg) translateZ(45px);
+    transform: scale(2) rotateZ(180deg) translateZ(45px);
+  }
+}
+
+@-webkit-keyframes explodeSprite {
+  /* line 174, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@-moz-keyframes explodeSprite {
+  /* line 180, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@-ms-keyframes explodeSprite {
+  /* line 186, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@keyframes explodeSprite {
+  /* line 192, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    background-position: -384px 0;
+  }
+}
+
+@-webkit-keyframes arotateX {
+  /* line 198, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@-moz-keyframes arotateX {
+  /* line 204, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@-ms-keyframes arotateX {
+  /* line 210, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@keyframes arotateX {
+  /* line 216, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@-webkit-keyframes arotateY {
+  /* line 222, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-moz-keyframes arotateY {
+  /* line 228, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-ms-keyframes arotateY {
+  /* line 234, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes arotateY {
+  /* line 240, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes arotateZ {
+  /* line 246, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@-moz-keyframes arotateZ {
+  /* line 252, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@-ms-keyframes arotateZ {
+  /* line 258, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes arotateZ {
+  /* line 264, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+/* line 170, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: scaleX(0.75) scaleY(0.75) scaleZ(0.75) translateY(200px);
+  -moz-transform: scaleX(0.75) scaleY(0.75) scaleZ(0.75) translateY(200px);
+  -ms-transform: scaleX(0.75) scaleY(0.75) scaleZ(0.75) translateY(200px);
+  -o-transform: scaleX(0.75) scaleY(0.75) scaleZ(0.75) translateY(200px);
+  transform: scaleX(0.75) scaleY(0.75) scaleZ(0.75) translateY(200px);
+}
+/* line 184, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .fog {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background: #fff;
+  position: absolute;
+  top: -70px;
+  left: -45px;
+  height: 140px;
+  width: 90px;
+  -webkit-transform-origin: 0 50% 0;
+  -moz-transform-origin: 0 50% 0;
+  -ms-transform-origin: 0 50% 0;
+  -o-transform-origin: 0 50% 0;
+  transform-origin: 0 50% 0;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
+  -o-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+/* line 197, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .fog .side-1 {
+  width: 90px;
+  height: 140px;
+  -webkit-transform-origin: 0 100% 0;
+  -moz-transform-origin: 0 100% 0;
+  -ms-transform-origin: 0 100% 0;
+  -o-transform-origin: 0 100% 0;
+  transform-origin: 0 100% 0;
+  position: absolute;
+  top: -70px;
+  left: -45px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, rgba(255, 255, 255, 0)), color-stop(90%, #ffffff));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: -o-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  -webkit-transform: translateY(70px) translateX(45px) rotateX(-90deg);
+  -moz-transform: translateY(70px) translateX(45px) rotateX(-90deg);
+  -ms-transform: translateY(70px) translateX(45px) rotateX(-90deg);
+  -o-transform: translateY(70px) translateX(45px) rotateX(-90deg);
+  transform: translateY(70px) translateX(45px) rotateX(-90deg);
+}
+/* line 219, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .fog .side-2 {
+  width: 90px;
+  height: 140px;
+  -webkit-transform-origin: 0 100% 0;
+  -moz-transform-origin: 0 100% 0;
+  -ms-transform-origin: 0 100% 0;
+  -o-transform-origin: 0 100% 0;
+  transform-origin: 0 100% 0;
+  position: absolute;
+  top: -70px;
+  left: -45px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, rgba(255, 255, 255, 0)), color-stop(90%, #ffffff));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: -o-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  -webkit-transform: translateY(-70px) translateX(45px) rotateX(-90deg);
+  -moz-transform: translateY(-70px) translateX(45px) rotateX(-90deg);
+  -ms-transform: translateY(-70px) translateX(45px) rotateX(-90deg);
+  -o-transform: translateY(-70px) translateX(45px) rotateX(-90deg);
+  transform: translateY(-70px) translateX(45px) rotateX(-90deg);
+}
+/* line 241, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .fog .side-3 {
+  width: 140px;
+  height: 140px;
+  -webkit-transform-origin: 0 100% 0;
+  -moz-transform-origin: 0 100% 0;
+  -ms-transform-origin: 0 100% 0;
+  -o-transform-origin: 0 100% 0;
+  transform-origin: 0 100% 0;
+  position: absolute;
+  top: -70px;
+  left: -70px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, rgba(255, 255, 255, 0)), color-stop(90%, #ffffff));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: -o-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  -webkit-transform: translateY(-70px) translateX(70px) rotateY(-90deg) rotateZ(90deg);
+  -moz-transform: translateY(-70px) translateX(70px) rotateY(-90deg) rotateZ(90deg);
+  -ms-transform: translateY(-70px) translateX(70px) rotateY(-90deg) rotateZ(90deg);
+  -o-transform: translateY(-70px) translateX(70px) rotateY(-90deg) rotateZ(90deg);
+  transform: translateY(-70px) translateX(70px) rotateY(-90deg) rotateZ(90deg);
+}
+/* line 265, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .fog .side-4 {
+  width: 140px;
+  height: 140px;
+  -webkit-transform-origin: 0 100% 0;
+  -moz-transform-origin: 0 100% 0;
+  -ms-transform-origin: 0 100% 0;
+  -o-transform-origin: 0 100% 0;
+  transform-origin: 0 100% 0;
+  position: absolute;
+  top: -70px;
+  left: -70px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, rgba(255, 255, 255, 0)), color-stop(90%, #ffffff));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: -o-linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  background: linear-gradient(rgba(255, 255, 255, 0) 1%, #ffffff 90%);
+  -webkit-transform: translateY(-70px) translateX(160px) rotateY(-90deg) rotateZ(90deg);
+  -moz-transform: translateY(-70px) translateX(160px) rotateY(-90deg) rotateZ(90deg);
+  -ms-transform: translateY(-70px) translateX(160px) rotateY(-90deg) rotateZ(90deg);
+  -o-transform: translateY(-70px) translateX(160px) rotateY(-90deg) rotateZ(90deg);
+  transform: translateY(-70px) translateX(160px) rotateY(-90deg) rotateZ(90deg);
+}
+/* line 291, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 0 0 0;
+  -moz-transform-origin: 0 0 0;
+  -ms-transform-origin: 0 0 0;
+  -o-transform-origin: 0 0 0;
+  transform-origin: 0 0 0;
+  -webkit-transform: translateX(50px) translateY(-100.5px) translateZ(27px) rotateZ(15deg);
+  -moz-transform: translateX(50px) translateY(-100.5px) translateZ(27px) rotateZ(15deg);
+  -ms-transform: translateX(50px) translateY(-100.5px) translateZ(27px) rotateZ(15deg);
+  -o-transform: translateX(50px) translateY(-100.5px) translateZ(27px) rotateZ(15deg);
+  transform: translateX(50px) translateY(-100.5px) translateZ(27px) rotateZ(15deg);
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 306, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger .phalanx {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 0 0 0;
+  -moz-transform-origin: 0 0 0;
+  -ms-transform-origin: 0 0 0;
+  -o-transform-origin: 0 0 0;
+  transform-origin: 0 0 0;
+  -webkit-transform: translateY(-60.5px) rotateZ(30deg);
+  -moz-transform: translateY(-60.5px) rotateZ(30deg);
+  -ms-transform: translateY(-60.5px) rotateZ(30deg);
+  -o-transform: translateY(-60.5px) rotateZ(30deg);
+  transform: translateY(-60.5px) rotateZ(30deg);
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 319, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger .phalanx .side-6 {
+  box-shadow: none;
+}
+/* line 325, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger.thumb {
+  -webkit-transform: translateX(50px) translateY(-100.5px) translateZ(-50.5px) rotateX(90deg) rotateZ(40deg) translateZ(-73px);
+  -moz-transform: translateX(50px) translateY(-100.5px) translateZ(-50.5px) rotateX(90deg) rotateZ(40deg) translateZ(-73px);
+  -ms-transform: translateX(50px) translateY(-100.5px) translateZ(-50.5px) rotateX(90deg) rotateZ(40deg) translateZ(-73px);
+  -o-transform: translateX(50px) translateY(-100.5px) translateZ(-50.5px) rotateX(90deg) rotateZ(40deg) translateZ(-73px);
+  transform: translateX(50px) translateY(-100.5px) translateZ(-50.5px) rotateX(90deg) rotateZ(40deg) translateZ(-73px);
+}
+/* line 336, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger.right {
+  -webkit-transform: translateX(50px) translateY(-100.5px) translateZ(-27px) rotateZ(30deg);
+  -moz-transform: translateX(50px) translateY(-100.5px) translateZ(-27px) rotateZ(30deg);
+  -ms-transform: translateX(50px) translateY(-100.5px) translateZ(-27px) rotateZ(30deg);
+  -o-transform: translateX(50px) translateY(-100.5px) translateZ(-27px) rotateZ(30deg);
+  transform: translateX(50px) translateY(-100.5px) translateZ(-27px) rotateZ(30deg);
+}
+/* line 343, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger.right .phalanx {
+  -webkit-transform: translateY(-60.5px) rotateZ(45deg);
+  -moz-transform: translateY(-60.5px) rotateZ(45deg);
+  -ms-transform: translateY(-60.5px) rotateZ(45deg);
+  -o-transform: translateY(-60.5px) rotateZ(45deg);
+  transform: translateY(-60.5px) rotateZ(45deg);
+}
+/* line 351, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger .side-1 {
+  width: 46px;
+  height: 60px;
+  position: absolute;
+  top: -60px;
+  left: -23px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.1);
+}
+/* line 360, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger .side-2 {
+  width: 46px;
+  height: 60px;
+  position: absolute;
+  top: -60px;
+  left: -23px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: rotateY(90deg) translateZ(-50px);
+  -moz-transform: rotateY(90deg) translateZ(-50px);
+  -ms-transform: rotateY(90deg) translateZ(-50px);
+  -o-transform: rotateY(90deg) translateZ(-50px);
+  transform: rotateY(90deg) translateZ(-50px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5);
+}
+/* line 370, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger .side-3 {
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: -60px;
+  left: -50px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: translateZ(23px);
+  -moz-transform: translateZ(23px);
+  -ms-transform: translateZ(23px);
+  -o-transform: translateZ(23px);
+  transform: translateZ(23px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
+}
+/* line 379, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger .side-4 {
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: -60px;
+  left: -50px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: translateZ(-23px);
+  -moz-transform: translateZ(-23px);
+  -ms-transform: translateZ(-23px);
+  -o-transform: translateZ(-23px);
+  transform: translateZ(-23px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
+}
+/* line 388, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger .side-5 {
+  width: 50px;
+  height: 46px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotateX(90deg) translateY(-23px) translateX(-50px);
+  -moz-transform: rotateX(90deg) translateY(-23px) translateX(-50px);
+  -ms-transform: rotateX(90deg) translateY(-23px) translateX(-50px);
+  -o-transform: rotateX(90deg) translateY(-23px) translateX(-50px);
+  transform: rotateX(90deg) translateY(-23px) translateX(-50px);
+  background: url("../images/relief.png");
+  background-position: 50% 50% repeat;
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation: FistBGColorX 6s infinite;
+  -moz-animation: FistBGColorX 6s infinite;
+  -ms-animation: FistBGColorX 6s infinite;
+  animation: FistBGColorX 6s infinite;
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5);
+}
+/* line 415, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .finger .side-6 {
+  width: 50px;
+  height: 46px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotateX(90deg) translateY(-23px) translateX(-50px) translateZ(60px);
+  -moz-transform: rotateX(90deg) translateY(-23px) translateX(-50px) translateZ(60px);
+  -ms-transform: rotateX(90deg) translateY(-23px) translateX(-50px) translateZ(60px);
+  -o-transform: rotateX(90deg) translateY(-23px) translateX(-50px) translateZ(60px);
+  transform: rotateX(90deg) translateY(-23px) translateX(-50px) translateZ(60px);
+  background: url("../images/relief.png");
+  background-position: 50% 50% repeat;
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation: FistBGColorX 6s infinite;
+  -moz-animation: FistBGColorX 6s infinite;
+  -ms-animation: FistBGColorX 6s infinite;
+  animation: FistBGColorX 6s infinite;
+  box-shadow: inset -25px 0 0 0 rgba(0, 0, 0, 0.4);
+}
+/* line 444, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .palm {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 100% -25px;
+  -moz-transform-origin: 50% 100% -25px;
+  -ms-transform-origin: 50% 100% -25px;
+  -o-transform-origin: 50% 100% -25px;
+  transform-origin: 50% 100% -25px;
+  -webkit-transform: translateX(-25px) translateY(-200.5px) rotateZ(-20deg);
+  -moz-transform: translateX(-25px) translateY(-200.5px) rotateZ(-20deg);
+  -ms-transform: translateX(-25px) translateY(-200.5px) rotateZ(-20deg);
+  -o-transform: translateX(-25px) translateY(-200.5px) rotateZ(-20deg);
+  transform: translateX(-25px) translateY(-200.5px) rotateZ(-20deg);
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+/* line 458, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .palm > .side-1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -100px;
+  left: -50px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: rotateY(90deg) translateZ(50px);
+  -moz-transform: rotateY(90deg) translateZ(50px);
+  -ms-transform: rotateY(90deg) translateZ(50px);
+  -o-transform: rotateY(90deg) translateZ(50px);
+  transform: rotateY(90deg) translateZ(50px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.1);
+}
+/* line 468, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .palm > .side-2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -100px;
+  left: -50px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5);
+}
+/* line 477, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .palm > .side-3 {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: -100px;
+  left: -50px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: translateZ(50px) translateX(50px);
+  -moz-transform: translateZ(50px) translateX(50px);
+  -ms-transform: translateZ(50px) translateX(50px);
+  -o-transform: translateZ(50px) translateX(50px);
+  transform: translateZ(50px) translateX(50px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
+}
+/* line 487, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .palm > .side-4 {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: -100px;
+  left: -50px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: translateZ(-50px) translateX(50px);
+  -moz-transform: translateZ(-50px) translateX(50px);
+  -ms-transform: translateZ(-50px) translateX(50px);
+  -o-transform: translateZ(-50px) translateX(50px);
+  transform: translateZ(-50px) translateX(50px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
+}
+/* line 497, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .palm > .side-5 {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotateX(90deg) translateY(-50px);
+  -moz-transform: rotateX(90deg) translateY(-50px);
+  -ms-transform: rotateX(90deg) translateY(-50px);
+  -o-transform: rotateX(90deg) translateY(-50px);
+  transform: rotateX(90deg) translateY(-50px);
+  background: url("../images/relief.png");
+  background-position: 50% 50% repeat;
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation: FistBGColorX 6s infinite;
+  -moz-animation: FistBGColorX 6s infinite;
+  -ms-animation: FistBGColorX 6s infinite;
+  animation: FistBGColorX 6s infinite;
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5);
+}
+/* line 523, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .palm > .side-6 {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotateX(90deg) translateY(-50px) translateZ(100.5px);
+  -moz-transform: rotateX(90deg) translateY(-50px) translateZ(100.5px);
+  -ms-transform: rotateX(90deg) translateY(-50px) translateZ(100.5px);
+  -o-transform: rotateX(90deg) translateY(-50px) translateZ(100.5px);
+  transform: rotateX(90deg) translateY(-50px) translateZ(100.5px);
+  background: url("../images/relief.png");
+  background-position: 50% 50% repeat;
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation: FistBGColorX 6s infinite;
+  -moz-animation: FistBGColorX 6s infinite;
+  -ms-animation: FistBGColorX 6s infinite;
+  animation: FistBGColorX 6s infinite;
+  box-shadow: inset -25px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+/* line 551, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .wrist {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+/* line 554, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .wrist .side-1 {
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  top: -200px;
+  left: -50px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(20px, transparent), color-stop(20px, rgba(0, 0, 0, 0.1)), color-stop(100px, rgba(0, 0, 0, 0.1)), color-stop(100px, transparent), color-stop(100%, transparent)), url("../images/relief.png");
+  background: -webkit-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: -moz-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: -o-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 100% 100%, 75px auto;
+  -moz-background-size: 100% 100%, 75px auto;
+  -o-background-size: 100% 100%, 75px auto;
+  background-size: 100% 100%, 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: rotateY(90deg) translateZ(25px);
+  -moz-transform: rotateY(90deg) translateZ(25px);
+  -ms-transform: rotateY(90deg) translateZ(25px);
+  -o-transform: rotateY(90deg) translateZ(25px);
+  transform: rotateY(90deg) translateZ(25px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.1), inset 0 -70px 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 565, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .wrist .side-2 {
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  top: -200px;
+  left: -50px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(20px, transparent), color-stop(20px, rgba(0, 0, 0, 0.1)), color-stop(100px, rgba(0, 0, 0, 0.1)), color-stop(100px, transparent), color-stop(100%, transparent)), url("../images/relief.png");
+  background: -webkit-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: -moz-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: -o-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 100% 100%, 75px auto;
+  -moz-background-size: 100% 100%, 75px auto;
+  -o-background-size: 100% 100%, 75px auto;
+  background-size: 100% 100%, 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: rotateY(-90deg) translateZ(25px);
+  -moz-transform: rotateY(-90deg) translateZ(25px);
+  -ms-transform: rotateY(-90deg) translateZ(25px);
+  -o-transform: rotateY(-90deg) translateZ(25px);
+  transform: rotateY(-90deg) translateZ(25px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5), inset 0 -70px 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 576, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .wrist .side-3 {
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  top: -200px;
+  left: -50px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(20px, transparent), color-stop(20px, rgba(0, 0, 0, 0.1)), color-stop(100px, rgba(0, 0, 0, 0.1)), color-stop(100px, transparent), color-stop(100%, transparent)), url("../images/relief.png");
+  background: -webkit-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: -moz-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: -o-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 100% 100%, 75px auto;
+  -moz-background-size: 100% 100%, 75px auto;
+  -o-background-size: 100% 100%, 75px auto;
+  background-size: 100% 100%, 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: translateZ(50px) translateX(25px);
+  -moz-transform: translateZ(50px) translateX(25px);
+  -ms-transform: translateZ(50px) translateX(25px);
+  -o-transform: translateZ(50px) translateX(25px);
+  transform: translateZ(50px) translateX(25px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3), inset 0 -70px 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 587, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .wrist .side-4 {
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  top: -200px;
+  left: -50px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(20px, transparent), color-stop(20px, rgba(0, 0, 0, 0.1)), color-stop(100px, rgba(0, 0, 0, 0.1)), color-stop(100px, transparent), color-stop(100%, transparent)), url("../images/relief.png");
+  background: -webkit-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: -moz-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: -o-linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background: linear-gradient(transparent, transparent 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 100px, transparent 100px, transparent), url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 100% 100%, 75px auto;
+  -moz-background-size: 100% 100%, 75px auto;
+  -o-background-size: 100% 100%, 75px auto;
+  background-size: 100% 100%, 75px auto;
+  -webkit-animation:  FistBGColorX 6s infinite ;
+  -moz-animation:  FistBGColorX 6s infinite ;
+  -ms-animation:  FistBGColorX 6s infinite ;
+  animation:  FistBGColorX 6s infinite ;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: translateZ(-50px) translateX(25px);
+  -moz-transform: translateZ(-50px) translateX(25px);
+  -ms-transform: translateZ(-50px) translateX(25px);
+  -o-transform: translateZ(-50px) translateX(25px);
+  transform: translateZ(-50px) translateX(25px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3), inset 0 -70px 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 599, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .wrist .side-5 {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotateX(90deg) translateY(-50px) translateX(-25px) translateZ(200.5px);
+  -moz-transform: rotateX(90deg) translateY(-50px) translateX(-25px) translateZ(200.5px);
+  -ms-transform: rotateX(90deg) translateY(-50px) translateX(-25px) translateZ(200.5px);
+  -o-transform: rotateX(90deg) translateY(-50px) translateX(-25px) translateZ(200.5px);
+  transform: rotateX(90deg) translateY(-50px) translateX(-25px) translateZ(200.5px);
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation: FistBGColorX 6s infinite;
+  -moz-animation: FistBGColorX 6s infinite;
+  -ms-animation: FistBGColorX 6s infinite;
+  animation: FistBGColorX 6s infinite;
+  box-shadow: inset 25px 0 0 0 rgba(0, 0, 0, 0.4);
+}
+/* line 625, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .cuff.lower {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+/* line 630, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .cuff {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateY(-110px);
+  -moz-transform: translateY(-110px);
+  -ms-transform: translateY(-110px);
+  -o-transform: translateY(-110px);
+  transform: translateY(-110px);
+}
+/* line 636, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .cuff .side-1 {
+  width: 120px;
+  height: 60px;
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation: FistBGColorX 6s infinite;
+  -moz-animation: FistBGColorX 6s infinite;
+  -ms-animation: FistBGColorX 6s infinite;
+  animation: FistBGColorX 6s infinite;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: rotateY(90deg) translateZ(30px);
+  -moz-transform: rotateY(90deg) translateZ(30px);
+  -ms-transform: rotateY(90deg) translateZ(30px);
+  -o-transform: rotateY(90deg) translateZ(30px);
+  transform: rotateY(90deg) translateZ(30px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0);
+}
+/* line 645, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .cuff .side-2 {
+  width: 120px;
+  height: 60px;
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation: FistBGColorX 6s infinite;
+  -moz-animation: FistBGColorX 6s infinite;
+  -ms-animation: FistBGColorX 6s infinite;
+  animation: FistBGColorX 6s infinite;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: rotateY(-90deg) translateZ(30px);
+  -moz-transform: rotateY(-90deg) translateZ(30px);
+  -ms-transform: rotateY(-90deg) translateZ(30px);
+  -o-transform: rotateY(-90deg) translateZ(30px);
+  transform: rotateY(-90deg) translateZ(30px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.4);
+}
+/* line 654, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .cuff .side-3 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation: FistBGColorX 6s infinite;
+  -moz-animation: FistBGColorX 6s infinite;
+  -ms-animation: FistBGColorX 6s infinite;
+  animation: FistBGColorX 6s infinite;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: translateZ(60px) translateX(30px);
+  -moz-transform: translateZ(60px) translateX(30px);
+  -ms-transform: translateZ(60px) translateX(30px);
+  -o-transform: translateZ(60px) translateX(30px);
+  transform: translateZ(60px) translateX(30px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.2);
+}
+/* line 663, /Users/silentimp/Games/models/sass/fist-model.scss */
+.fist-model .cuff .side-4 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  background: url("../images/relief.png");
+  background-color: #33ffff;
+  -webkit-background-size: 75px auto;
+  -moz-background-size: 75px auto;
+  -o-background-size: 75px auto;
+  background-size: 75px auto;
+  -webkit-animation: FistBGColorX 6s infinite;
+  -moz-animation: FistBGColorX 6s infinite;
+  -ms-animation: FistBGColorX 6s infinite;
+  animation: FistBGColorX 6s infinite;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: translateZ(-60px) translateX(30px);
+  -moz-transform: translateZ(-60px) translateX(30px);
+  -ms-transform: translateZ(-60px) translateX(30px);
+  -o-transform: translateZ(-60px) translateX(30px);
+  transform: translateZ(-60px) translateX(30px);
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.2);
+}

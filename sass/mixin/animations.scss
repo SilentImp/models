@@ -1,5 +1,95 @@
 @import "compass";
 
+@-webkit-keyframes BGposX{
+	from {
+		background-position: 
+			50% 50%,
+			0 200px;
+		}
+	to {
+		background-position: 
+			50% 50%,
+			0 0;
+		}
+	}
+
+@-webkit-keyframes BGpos{
+	from {
+		background-position: 
+			0 0,
+			50% 50%,
+			0 200px;
+		}
+	to {
+		background-position: 
+			0 0,
+			50% 50%,
+			0 0;
+		}
+	}
+
+
+@-webkit-keyframes FistBGColorX{
+	0%{
+		background-color: #3ff;
+		}
+	33%  {
+		background-color: #00ff24; 
+		}
+	66% {
+		background-color: #0ff; 
+		}
+	100%{
+		background-color: #3ff;
+		}
+	}
+	
+@-moz-keyframes FistBGColorX{ 
+	0%{
+		background-color: #3ff;
+		}
+	33%  {
+		background-color: #00ff24; 
+		}
+	66% {
+		background-color: #0ff; 
+		}
+	100%{
+		background-color: #3ff;
+		}
+	}
+	
+@-ms-keyframes FistBGColorX{ 
+	0%{
+		background-color: #3ff;
+		}
+	33%  {
+		background-color: #00ff24; 
+		}
+	66% {
+		background-color: #0ff; 
+		}
+	100%{
+		background-color: #3ff;
+		}
+	}
+	
+@keyframes FistBGColorX{ 
+	0%{
+		background-color: #3ff;
+		}
+	33%  {
+		background-color: #00ff24; 
+		}
+	66% {
+		background-color: #0ff; 
+		}
+	100%{
+		background-color: #3ff;
+		}
+	}
+
+
 @-webkit-keyframes FireColor{
 	100% {
 		background-color: #f00; 

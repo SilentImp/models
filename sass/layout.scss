@@ -28,9 +28,7 @@ html{
 			height: 0;
 			@include transform-style(preserve-3d);
 			// @include transform(
-			// 	rotateY(-120deg)
-			// 	rotateZ(60deg)
-			// 	translateY(200px)
+			// 	rotateY(-180deg)
 			// 	);
 			@include animate(arotateY 5s infinite linear);
 			}

@@ -570,22 +570,14 @@
   top: -50px;
   left: -35px;
   display: block;
-  background: url("../images/satellite.png") repeat;
-  -webkit-background-size: 50px;
-  -moz-background-size: 50px;
-  -o-background-size: 50px;
-  background-size: 50px;
+  background: url("../images/plate.png") repeat;
   -webkit-transform: translateZ(35px);
   -moz-transform: translateZ(35px);
   -ms-transform: translateZ(35px);
   -o-transform: translateZ(35px);
   transform: translateZ(35px);
-  -webkit-animation: FistBGColorX 6s infinite;
-  -moz-animation: FistBGColorX 6s infinite;
-  -ms-animation: FistBGColorX 6s infinite;
-  animation: FistBGColorX 6s infinite;
 }
-/* line 69, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 70, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin-long .cabin-side-2 {
   width: 70px;
   height: 100px;
@@ -593,11 +585,7 @@
   top: -50px;
   left: -35px;
   display: block;
-  background: url("../images/satellite.png") repeat;
-  -webkit-background-size: 50px;
-  -moz-background-size: 50px;
-  -o-background-size: 50px;
-  background-size: 50px;
+  background: url("../images/plate.png") repeat;
   -webkit-transform: translateZ(-35px);
   -moz-transform: translateZ(-35px);
   -ms-transform: translateZ(-35px);
@@ -606,12 +594,8 @@
   -webkit-box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.5);
-  -webkit-animation: FistBGColorX 6s infinite;
-  -moz-animation: FistBGColorX 6s infinite;
-  -ms-animation: FistBGColorX 6s infinite;
-  animation: FistBGColorX 6s infinite;
 }
-/* line 80, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 82, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin-long .cabin-side-3 {
   width: 70px;
   height: 70px;
@@ -633,18 +617,14 @@
   -ms-animation: FistBGColorX 6s infinite;
   animation: FistBGColorX 6s infinite;
 }
-/* line 95, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 97, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin-long .cabin-side-4 {
   width: 70px;
   height: 70px;
   position: absolute;
   top: -35px;
   left: -35px;
-  background: url("../images/satellite.png") repeat;
-  -webkit-background-size: 50px;
-  -moz-background-size: 50px;
-  -o-background-size: 50px;
-  background-size: 50px;
+  background: url("../images/plate.png") repeat;
   -webkit-transform: rotateX(90deg) translateZ(-50.5px);
   -moz-transform: rotateX(90deg) translateZ(-50.5px);
   -ms-transform: rotateX(90deg) translateZ(-50.5px);
@@ -653,18 +633,10 @@
   -webkit-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   -moz-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
-  -webkit-animation: FistBGColorX 6s infinite;
-  -moz-animation: FistBGColorX 6s infinite;
-  -ms-animation: FistBGColorX 6s infinite;
-  animation: FistBGColorX 6s infinite;
 }
-/* line 111, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 114, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin-long .cabin-side-5 {
-  background: url("../images/satellite.png") repeat;
-  -webkit-background-size: 50px;
-  -moz-background-size: 50px;
-  -o-background-size: 50px;
-  background-size: 50px;
+  background: url("../images/plate.png") repeat;
   -webkit-transform: rotateY(90deg) translateZ(35px);
   -moz-transform: rotateY(90deg) translateZ(35px);
   -ms-transform: rotateY(90deg) translateZ(35px);
@@ -679,18 +651,10 @@
   -webkit-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   -moz-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
-  -webkit-animation: FistBGColorX 6s infinite;
-  -moz-animation: FistBGColorX 6s infinite;
-  -ms-animation: FistBGColorX 6s infinite;
-  animation: FistBGColorX 6s infinite;
 }
-/* line 123, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 127, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin-long .cabin-side-6 {
-  background: url("../images/satellite.png") repeat;
-  -webkit-background-size: 50px;
-  -moz-background-size: 50px;
-  -o-background-size: 50px;
-  background-size: 50px;
+  background: url("../images/plate.png") repeat;
   -webkit-transform: rotateY(-90deg) translateZ(35px);
   -moz-transform: rotateY(-90deg) translateZ(35px);
   -ms-transform: rotateY(-90deg) translateZ(35px);
@@ -705,12 +669,8 @@
   -webkit-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   -moz-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
-  -webkit-animation: FistBGColorX 6s infinite;
-  -moz-animation: FistBGColorX 6s infinite;
-  -ms-animation: FistBGColorX 6s infinite;
-  animation: FistBGColorX 6s infinite;
 }
-/* line 136, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 141, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin {
   position: absolute;
   top: 0;
@@ -726,7 +686,7 @@
   -o-transform: translateY(124px) translateZ(-20px) rotateY(45deg);
   transform: translateY(124px) translateZ(-20px) rotateY(45deg);
 }
-/* line 148, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 153, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin .cabin-side-1 {
   width: 50px;
   height: 50px;
@@ -734,22 +694,14 @@
   top: -25px;
   left: -25px;
   display: block;
-  background: url("../images/satellite.png") repeat;
-  -webkit-background-size: 50px;
-  -moz-background-size: 50px;
-  -o-background-size: 50px;
-  background-size: 50px;
+  background: url("../images/plate.png") repeat;
   -webkit-transform: translateZ(25px);
   -moz-transform: translateZ(25px);
   -ms-transform: translateZ(25px);
   -o-transform: translateZ(25px);
   transform: translateZ(25px);
-  -webkit-animation: FistBGColorX 6s infinite;
-  -moz-animation: FistBGColorX 6s infinite;
-  -ms-animation: FistBGColorX 6s infinite;
-  animation: FistBGColorX 6s infinite;
 }
-/* line 158, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 164, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin .cabin-side-2 {
   width: 50px;
   height: 50px;
@@ -757,11 +709,7 @@
   top: -25px;
   left: -25px;
   display: block;
-  background: url("../images/satellite.png") repeat;
-  -webkit-background-size: 50px;
-  -moz-background-size: 50px;
-  -o-background-size: 50px;
-  background-size: 50px;
+  background: url("../images/plate.png") repeat;
   -webkit-transform: translateZ(-25px);
   -moz-transform: translateZ(-25px);
   -ms-transform: translateZ(-25px);
@@ -770,12 +718,8 @@
   -webkit-box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.5);
-  -webkit-animation: FistBGColorX 6s infinite;
-  -moz-animation: FistBGColorX 6s infinite;
-  -ms-animation: FistBGColorX 6s infinite;
-  animation: FistBGColorX 6s infinite;
 }
-/* line 169, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 176, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin .cabin-side-3 {
   background: url("../images/glass.jpg") repeat;
   background: url("../images/force.png") repeat;
@@ -794,18 +738,10 @@
   -moz-box-shadow: inset 0 0 0 2px #494e53;
   box-shadow: inset 0 0 0 2px #494e53;
   opacity: 1;
-  -webkit-animation: force 2s infinite alternate;
-  -moz-animation: force 2s infinite alternate;
-  -ms-animation: force 2s infinite alternate;
-  animation: force 2s infinite alternate;
 }
-/* line 183, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 190, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin .cabin-side-4 {
-  background: url("../images/front.png") repeat;
-  -webkit-background-size: 50px;
-  -moz-background-size: 50px;
-  -o-background-size: 50px;
-  background-size: 50px;
+  background: url("../images/plate.png") repeat;
   -webkit-transform: rotateX(90deg) translateZ(25px);
   -moz-transform: rotateX(90deg) translateZ(25px);
   -ms-transform: rotateX(90deg) translateZ(25px);
@@ -820,18 +756,10 @@
   -webkit-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   -moz-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
-  -webkit-animation: FistBGColorX 6s infinite;
-  -moz-animation: FistBGColorX 6s infinite;
-  -ms-animation: FistBGColorX 6s infinite;
-  animation: FistBGColorX 6s infinite;
 }
-/* line 195, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 203, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin .cabin-side-5 {
-  background: url("../images/satellite.png") repeat;
-  -webkit-background-size: 50px;
-  -moz-background-size: 50px;
-  -o-background-size: 50px;
-  background-size: 50px;
+  background: url("../images/plate.png") repeat;
   -webkit-transform: rotateY(90deg) translateZ(25px);
   -moz-transform: rotateY(90deg) translateZ(25px);
   -ms-transform: rotateY(90deg) translateZ(25px);
@@ -846,22 +774,10 @@
   -webkit-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   -moz-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
-  -webkit-animation: FistBGColorX 6s infinite;
-  -moz-animation: FistBGColorX 6s infinite;
-  -ms-animation: FistBGColorX 6s infinite;
-  animation: FistBGColorX 6s infinite;
 }
-/* line 207, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 216, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .cabin .cabin-side-6 {
-  background: url("../images/satellite.png") repeat;
-  -webkit-background-size: 50px;
-  -moz-background-size: 50px;
-  -o-background-size: 50px;
-  background-size: 50px;
-  -webkit-animation: FistBGColorX 6s infinite;
-  -moz-animation: FistBGColorX 6s infinite;
-  -ms-animation: FistBGColorX 6s infinite;
-  animation: FistBGColorX 6s infinite;
+  background: url("../images/plate.png") repeat;
   -webkit-transform: rotateY(-90deg) translateZ(25px);
   -moz-transform: rotateY(-90deg) translateZ(25px);
   -ms-transform: rotateY(-90deg) translateZ(25px);
@@ -877,7 +793,7 @@
   -moz-box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
   box-shadow: inset 0 0 0 100px rgba(73, 78, 83, 0.3);
 }
-/* line 220, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 230, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing {
   position: absolute;
   top: 50%;
@@ -895,7 +811,7 @@
   -o-transform: translateX(-75px) translateY(35px);
   transform: translateX(-75px) translateY(35px);
 }
-/* line 232, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 242, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing.left {
   -webkit-transform: translateX(-186.5px) rotateX(-30deg) translateY(20px);
   -moz-transform: translateX(-186.5px) rotateX(-30deg) translateY(20px);
@@ -903,7 +819,7 @@
   -o-transform: translateX(-186.5px) rotateX(-30deg) translateY(20px);
   transform: translateX(-186.5px) rotateX(-30deg) translateY(20px);
 }
-/* line 239, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 249, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing.right {
   -webkit-transform: translateX(36.5px) rotateX(-30deg) translateY(20px);
   -moz-transform: translateX(36.5px) rotateX(-30deg) translateY(20px);
@@ -911,7 +827,7 @@
   -o-transform: translateX(36.5px) rotateX(-30deg) translateY(20px);
   transform: translateX(36.5px) rotateX(-30deg) translateY(20px);
 }
-/* line 247, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 257, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing .side-1 {
   position: absolute;
   top: 0;
@@ -934,7 +850,7 @@
   -o-transform: translateZ(75px);
   transform: translateZ(75px);
 }
-/* line 265, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 275, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing .side-2 {
   position: absolute;
   top: 0;
@@ -961,7 +877,7 @@
   -moz-box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.5);
 }
-/* line 286, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 296, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing .side-3 {
   position: absolute;
   top: 0;
@@ -992,7 +908,7 @@
   -moz-box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.2);
 }
-/* line 308, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 318, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing .side-4 {
   position: absolute;
   top: 0;
@@ -1023,7 +939,7 @@
   -moz-box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.2);
 }
-/* line 330, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 340, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing .side-5 {
   position: absolute;
   top: 0;
@@ -1047,7 +963,7 @@
   -o-transform: rotateX(90deg) translateX(-30px) rotateZ(45deg) translateZ(-55px) translateY(-2px);
   transform: rotateX(90deg) translateX(-30px) rotateZ(45deg) translateZ(-55px) translateY(-2px);
 }
-/* line 349, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 359, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing .side-6 {
   position: absolute;
   top: 0;
@@ -1071,7 +987,7 @@
   -o-transform: rotateX(90deg) translateX(-30px) rotateZ(-45deg) translateZ(-45px) translateY(-2px);
   transform: rotateX(90deg) translateX(-30px) rotateZ(-45deg) translateZ(-45px) translateY(-2px);
 }
-/* line 368, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 378, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing .plate-1 {
   position: absolute;
   top: 0;
@@ -1099,7 +1015,7 @@
   -o-transform: rotateX(90deg) translateX(22px) translateZ(-6px) translateY(-3px);
   transform: rotateX(90deg) translateX(22px) translateZ(-6px) translateY(-3px);
 }
-/* line 385, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 395, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing .plate-2 {
   position: absolute;
   top: 0;
@@ -1127,7 +1043,7 @@
   -o-transform: rotateX(90deg) translateX(22px) translateZ(10px) translateY(-3px);
   transform: rotateX(90deg) translateX(22px) translateZ(10px) translateY(-3px);
 }
-/* line 402, /Users/silentimp/Games/models/sass/plane-model.scss */
+/* line 412, /Users/silentimp/Games/models/sass/plane-model.scss */
 .plane-model .wing .airscrew {
   position: absolute;
   top: 0;

@@ -1,6 +1,8 @@
 module.exports = (grunt)->
 	grunt.initConfig
 		watch:
+			options:
+				livereload: true
 			coffee:
 				files: 'coffee/*.coffee'
 				tasks: 'coffee'

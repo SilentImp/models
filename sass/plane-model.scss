@@ -82,12 +82,45 @@
 		rotateX(110deg)
 		rotateZ(180deg)
 		rotateY(0deg)
-		scaleX(.5)
-		scaleY(.5)
-		scaleZ(.5)
+		scaleX(.45)
+		scaleY(.45)
+		scaleZ(.45)
 		);
 	width: 0px;
 	height: 0px;
+	z-index: 1;
+	
+	& *{
+		z-index: 1; 
+		}
+	
+	&.n3{
+		@include transform3d(
+			rotateX(110deg)
+			rotateZ(180deg)
+			rotateY(0deg)
+			translateX(-120px)
+			translateZ(120px)
+			scaleX(.45)
+			scaleY(.45)
+			scaleZ(.45)
+			);
+		display: none;
+		}
+
+	&.n2{
+		@include transform3d(
+			rotateX(110deg)
+			rotateZ(180deg)
+			rotateY(0deg)
+			translateX(120px)
+			translateZ(120px)
+			scaleX(.45)
+			scaleY(.45)
+			scaleZ(.45)
+			);
+		display: none;
+		}
 	
 	.connector{
 		@include transform-style(preserve-3d);
@@ -344,6 +377,7 @@
 				translateZ(-52px)
 				);
 			@include eye-side;
+			z-index: 3;
 			}
 
 		.cabin-eye-2{
@@ -354,6 +388,7 @@
 				translateZ(-53px)
 				);
 			@include eye-side;
+			z-index: 4;
 			}
 
 		.cabin-eye-3{
@@ -364,6 +399,7 @@
 				translateZ(-54px)
 				);
 			@include eye-side;
+			z-index: 5;
 			}
 
 		.cabin-eye-4{
@@ -374,6 +410,7 @@
 				translateZ(-55px)
 				);
 			@include eye-side;
+			z-index: 6;
 			}
 
 		.cabin-side-1{
@@ -411,6 +448,7 @@
 				rotateX(-90deg)
 				translateZ(-50.5px)
 				);
+			z-index: 2;
 			@include animate(FistBGColorX 6s infinite);
 			}
 

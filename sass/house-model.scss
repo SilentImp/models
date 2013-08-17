@@ -1,0 +1,89 @@
+@import "compass";
+@import "mixin/*";
+
+
+$house: sprite-map("house/*.png", $position: 50%, $spacing: 32px, $repeat: no-repeat);
+
+@mixin house-side{
+  position: absolute;
+  left: 0;
+  top: 0;
+  @include s($house,side);
+  margin-left: - image-width(sprite-file($house, side))/2;
+  margin-top: - image-height(sprite-file($house, side))/2;
+  }
+
+@mixin house-front{
+  position: absolute;
+  left: 0;
+  top: 0;
+  @include s($house,front);
+  margin-left: - image-width(sprite-file($house, front))/2;
+  margin-top: - image-height(sprite-file($house, side))/2;
+  height: image-height(sprite-file($house, side));
+  }
+
+@mixin house-back{
+  position: absolute;
+  left: 0;
+  top: 0;
+  @include s($house,back);
+  margin-left: - image-width(sprite-file($house, back))/2;
+  margin-top: - image-height(sprite-file($house, side))/2;
+  height: image-height(sprite-file($house, side));
+  }
+
+.house-model{
+  position: absolute;
+  width: 0;
+  height: 0;
+  @include transform-style(preserve-3d);
+  @include transform3d(
+    rotateX(-90deg)
+    scaleX(.5)
+    scaleY(.5)
+    scaleZ(.5)
+    rotateY(15deg)
+    );
+  .roof{
+      position: absolute;
+      left: 0;
+      top: 0;
+      @include s($house,roof);
+      margin-left: - image-width(sprite-file($house, roof))/2;
+      margin-top: - image-height(sprite-file($house, roof))/2;
+      @include transform3d(
+        translateZ(- image-height(sprite-file($house, side))/2)
+        );
+    }
+  .front{
+    @include house-front;
+    @include transform3d(
+      rotateX(90deg)
+      rotateY(90deg)
+      translateZ( - (image-width(sprite-file($house, side))+1)/2)
+      );
+    }
+  .back{
+    @include house-back;
+    @include transform3d(
+      rotateX(90deg)
+      rotateY(-90deg)
+      translateZ( - (image-width(sprite-file($house, side))+1)/2)
+      );
+    }
+  .left{
+    @include house-side;
+    @include transform3d(
+      rotateX(90deg)
+      translateZ( - image-width(sprite-file($house, front))/2)
+      );
+    }
+  .right{
+    @include house-side;
+    @include transform3d(
+      rotateX(90deg)
+      translateZ( image-width(sprite-file($house, front))/2)
+      );
+    }
+  }

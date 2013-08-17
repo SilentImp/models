@@ -1,7 +1,7 @@
 3.2.10 (Media Mark)
-4d7f54ec0eeada72136ae9c840aa1a435d3d2f6a
+81f868c0d9f4ae50d4f5d00452f5db4dc55b37f4
 o:Sass::Tree::RootNode
-:@template"Æ?@import "compass";
+:@template"È?@import "compass";
 @import "mixin/*";
 
 @mixin gun-side{
@@ -108,7 +108,7 @@
 			scaleY(.45)
 			scaleZ(.45)
 			);
-		display: none;
+			display: none;
 		}
 
 	&.n2{
@@ -122,7 +122,7 @@
 			scaleY(.45)
 			scaleZ(.45)
 			);
-		display: none;
+			display: none;
 		}
 	
 	.connector{

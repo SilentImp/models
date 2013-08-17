@@ -1,33 +1,33 @@
 @-webkit-keyframes force {
-  /* line 4, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 4, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     opacity: .75;
   }
 }
 
 @-moz-keyframes force {
-  /* line 10, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 10, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     opacity: .75;
   }
 }
 
 @-ms-keyframes force {
-  /* line 16, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 16, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     opacity: .75;
   }
 }
 
 @keyframes force {
-  /* line 22, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 22, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     opacity: .75;
   }
 }
 
 @-webkit-keyframes airscrew {
-  /* line 28, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 28, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     -webkit-transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
     -moz-transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
@@ -36,7 +36,7 @@
     transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
   }
 
-  /* line 35, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 35, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateX(90deg) translateX(22px) rotateZ(360deg);
     -moz-transform: rotateX(90deg) translateX(22px) rotateZ(360deg);
@@ -47,7 +47,7 @@
 }
 
 @-moz-keyframes airscrew {
-  /* line 45, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 45, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     -webkit-transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
     -moz-transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
@@ -56,7 +56,7 @@
     transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
   }
 
-  /* line 52, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 52, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateX(90deg) translateX(22px) rotateZ(360deg);
     -moz-transform: rotateX(90deg) translateX(22px) rotateZ(360deg);
@@ -67,7 +67,7 @@
 }
 
 @-ms-keyframes airscrew {
-  /* line 62, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 62, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     -webkit-transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
     -moz-transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
@@ -76,7 +76,7 @@
     transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
   }
 
-  /* line 69, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 69, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateX(90deg) translateX(22px) rotateZ(360deg);
     -moz-transform: rotateX(90deg) translateX(22px) rotateZ(360deg);
@@ -87,7 +87,7 @@
 }
 
 @keyframes airscrew {
-  /* line 79, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 79, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     -webkit-transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
     -moz-transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
@@ -96,7 +96,7 @@
     transform: rotateX(90deg) translateX(22px) rotateZ(0deg);
   }
 
-  /* line 86, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 86, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateX(90deg) translateX(22px) rotateZ(360deg);
     -moz-transform: rotateX(90deg) translateX(22px) rotateZ(360deg);
@@ -107,147 +107,147 @@
 }
 
 @-webkit-keyframes BGposX {
-  /* line 97, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 97, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   from {
     background-position: 50% 50%, 0 200px;
   }
 
-  /* line 102, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 102, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   to {
     background-position: 50% 50%, 0 0;
   }
 }
 
 @-webkit-keyframes BGpos {
-  /* line 110, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 110, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   from {
     background-position: 0 0, 50% 50%, 0 200px;
   }
 
-  /* line 116, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 116, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   to {
     background-position: 0 0, 50% 50%, 0 0;
   }
 }
 
 @-webkit-keyframes FistBGColorX {
-  /* line 126, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 126, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     background-color: #3ff;
   }
 
-  /* line 129, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 129, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   33% {
     background-color: #00ff24;
   }
 
-  /* line 132, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 132, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   66% {
     background-color: #0ff;
   }
 
-  /* line 135, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 135, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-color: #3ff;
   }
 }
 
 @-moz-keyframes FistBGColorX {
-  /* line 141, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 141, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     background-color: #3ff;
   }
 
-  /* line 144, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 144, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   33% {
     background-color: #00ff24;
   }
 
-  /* line 147, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 147, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   66% {
     background-color: #0ff;
   }
 
-  /* line 150, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 150, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-color: #3ff;
   }
 }
 
 @-ms-keyframes FistBGColorX {
-  /* line 156, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 156, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     background-color: #3ff;
   }
 
-  /* line 159, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 159, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   33% {
     background-color: #00ff24;
   }
 
-  /* line 162, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 162, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   66% {
     background-color: #0ff;
   }
 
-  /* line 165, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 165, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-color: #3ff;
   }
 }
 
 @keyframes FistBGColorX {
-  /* line 171, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 171, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     background-color: #3ff;
   }
 
-  /* line 174, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 174, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   33% {
     background-color: #00ff24;
   }
 
-  /* line 177, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 177, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   66% {
     background-color: #0ff;
   }
 
-  /* line 180, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 180, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-color: #3ff;
   }
 }
 
 @-webkit-keyframes FireColor {
-  /* line 187, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 187, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-color: #f00;
   }
 }
 
 @-moz-keyframes FireColor {
-  /* line 193, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 193, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-color: #f00;
   }
 }
 
 @-ms-keyframes FireColor {
-  /* line 199, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 199, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-color: #f00;
   }
 }
 
 @keyframes FireColor {
-  /* line 205, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 205, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-color: #f00;
   }
 }
 
 @-webkit-keyframes fire {
-  /* line 211, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 211, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
     -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
@@ -258,13 +258,13 @@
     opacity: 0.9;
   }
 
-  /* line 215, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 215, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   50% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
     opacity: 0.9;
   }
 
-  /* line 218, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 218, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
@@ -277,7 +277,7 @@
 }
 
 @-moz-keyframes fire {
-  /* line 225, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 225, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
     -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
@@ -288,13 +288,13 @@
     opacity: 0.9;
   }
 
-  /* line 229, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 229, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   50% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
     opacity: 0.9;
   }
 
-  /* line 232, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 232, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
@@ -307,7 +307,7 @@
 }
 
 @-ms-keyframes fire {
-  /* line 239, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 239, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
     -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
@@ -318,13 +318,13 @@
     opacity: 0.9;
   }
 
-  /* line 243, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 243, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   50% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
     opacity: 0.9;
   }
 
-  /* line 246, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 246, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
@@ -337,7 +337,7 @@
 }
 
 @keyframes fire {
-  /* line 253, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 253, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   0% {
     -webkit-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
     -moz-transform: scale(0.8) rotateZ(0deg) translateZ(0px);
@@ -348,13 +348,13 @@
     opacity: 0.9;
   }
 
-  /* line 257, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 257, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   50% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
     opacity: 0.9;
   }
 
-  /* line 260, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 260, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
@@ -367,35 +367,35 @@
 }
 
 @-webkit-keyframes explodeSprite {
-  /* line 267, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 267, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-position: -384px 0;
   }
 }
 
 @-moz-keyframes explodeSprite {
-  /* line 273, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 273, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-position: -384px 0;
   }
 }
 
 @-ms-keyframes explodeSprite {
-  /* line 279, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 279, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-position: -384px 0;
   }
 }
 
 @keyframes explodeSprite {
-  /* line 285, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 285, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     background-position: -384px 0;
   }
 }
 
 @-webkit-keyframes arotateX {
-  /* line 291, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 291, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateX(360deg);
     -moz-transform: rotateX(360deg);
@@ -406,7 +406,7 @@
 }
 
 @-moz-keyframes arotateX {
-  /* line 297, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 297, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateX(360deg);
     -moz-transform: rotateX(360deg);
@@ -417,7 +417,7 @@
 }
 
 @-ms-keyframes arotateX {
-  /* line 303, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 303, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateX(360deg);
     -moz-transform: rotateX(360deg);
@@ -428,7 +428,7 @@
 }
 
 @keyframes arotateX {
-  /* line 309, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 309, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateX(360deg);
     -moz-transform: rotateX(360deg);
@@ -439,7 +439,7 @@
 }
 
 @-webkit-keyframes arotateY {
-  /* line 315, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 315, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateY(360deg);
     -moz-transform: rotateY(360deg);
@@ -450,7 +450,7 @@
 }
 
 @-moz-keyframes arotateY {
-  /* line 321, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 321, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateY(360deg);
     -moz-transform: rotateY(360deg);
@@ -461,7 +461,7 @@
 }
 
 @-ms-keyframes arotateY {
-  /* line 327, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 327, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateY(360deg);
     -moz-transform: rotateY(360deg);
@@ -472,7 +472,7 @@
 }
 
 @keyframes arotateY {
-  /* line 333, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 333, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateY(360deg);
     -moz-transform: rotateY(360deg);
@@ -483,7 +483,7 @@
 }
 
 @-webkit-keyframes arotateZ {
-  /* line 339, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 339, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateZ(360deg);
     -moz-transform: rotateZ(360deg);
@@ -494,7 +494,7 @@
 }
 
 @-moz-keyframes arotateZ {
-  /* line 345, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 345, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateZ(360deg);
     -moz-transform: rotateZ(360deg);
@@ -505,7 +505,7 @@
 }
 
 @-ms-keyframes arotateZ {
-  /* line 351, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 351, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateZ(360deg);
     -moz-transform: rotateZ(360deg);
@@ -516,7 +516,7 @@
 }
 
 @keyframes arotateZ {
-  /* line 357, /Users/silentimp/Games/models/sass/mixin/animations.scss */
+  /* line 357, /Users/silentimp/Games/Models/sass/mixin/animations.scss */
   100% {
     -webkit-transform: rotateZ(360deg);
     -moz-transform: rotateZ(360deg);
@@ -526,7 +526,7 @@
   }
 }
 
-/* line 170, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 170, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model {
   position: absolute;
   left: 50%;
@@ -544,7 +544,7 @@
   -o-transform: scaleX(0.75) scaleY(0.75) scaleZ(0.75) translateY(200px);
   transform: scaleX(0.75) scaleY(0.75) scaleZ(0.75) translateY(200px);
 }
-/* line 184, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 184, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .fog {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -568,7 +568,7 @@
   -o-transform: rotateX(90deg);
   transform: rotateX(90deg);
 }
-/* line 197, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 197, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .fog .side-1 {
   width: 90px;
   height: 140px;
@@ -591,7 +591,7 @@
   -o-transform: translateY(70px) translateX(45px) rotateX(-90deg);
   transform: translateY(70px) translateX(45px) rotateX(-90deg);
 }
-/* line 219, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 219, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .fog .side-2 {
   width: 90px;
   height: 140px;
@@ -614,7 +614,7 @@
   -o-transform: translateY(-70px) translateX(45px) rotateX(-90deg);
   transform: translateY(-70px) translateX(45px) rotateX(-90deg);
 }
-/* line 241, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 241, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .fog .side-3 {
   width: 140px;
   height: 140px;
@@ -637,7 +637,7 @@
   -o-transform: translateY(-70px) translateX(70px) rotateY(-90deg) rotateZ(90deg);
   transform: translateY(-70px) translateX(70px) rotateY(-90deg) rotateZ(90deg);
 }
-/* line 265, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 265, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .fog .side-4 {
   width: 140px;
   height: 140px;
@@ -660,7 +660,7 @@
   -o-transform: translateY(-70px) translateX(160px) rotateY(-90deg) rotateZ(90deg);
   transform: translateY(-70px) translateX(160px) rotateY(-90deg) rotateZ(90deg);
 }
-/* line 291, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 291, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -683,7 +683,7 @@
   top: 0;
   left: 0;
 }
-/* line 306, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 306, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger .phalanx {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -706,11 +706,11 @@
   top: 0;
   left: 0;
 }
-/* line 319, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 319, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger .phalanx .side-6 {
   box-shadow: none;
 }
-/* line 325, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 325, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger.thumb {
   -webkit-transform: translateX(50px) translateY(-100.5px) translateZ(-50.5px) rotateX(90deg) rotateZ(40deg) translateZ(-73px);
   -moz-transform: translateX(50px) translateY(-100.5px) translateZ(-50.5px) rotateX(90deg) rotateZ(40deg) translateZ(-73px);
@@ -718,7 +718,7 @@
   -o-transform: translateX(50px) translateY(-100.5px) translateZ(-50.5px) rotateX(90deg) rotateZ(40deg) translateZ(-73px);
   transform: translateX(50px) translateY(-100.5px) translateZ(-50.5px) rotateX(90deg) rotateZ(40deg) translateZ(-73px);
 }
-/* line 336, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 336, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger.right {
   -webkit-transform: translateX(50px) translateY(-100.5px) translateZ(-27px) rotateZ(30deg);
   -moz-transform: translateX(50px) translateY(-100.5px) translateZ(-27px) rotateZ(30deg);
@@ -726,7 +726,7 @@
   -o-transform: translateX(50px) translateY(-100.5px) translateZ(-27px) rotateZ(30deg);
   transform: translateX(50px) translateY(-100.5px) translateZ(-27px) rotateZ(30deg);
 }
-/* line 343, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 343, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger.right .phalanx {
   -webkit-transform: translateY(-60.5px) rotateZ(45deg);
   -moz-transform: translateY(-60.5px) rotateZ(45deg);
@@ -734,7 +734,7 @@
   -o-transform: translateY(-60.5px) rotateZ(45deg);
   transform: translateY(-60.5px) rotateZ(45deg);
 }
-/* line 351, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 351, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger .side-1 {
   width: 46px;
   height: 60px;
@@ -763,7 +763,7 @@
   transform: rotateY(90deg);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.1);
 }
-/* line 360, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 360, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger .side-2 {
   width: 46px;
   height: 60px;
@@ -792,7 +792,7 @@
   transform: rotateY(90deg) translateZ(-50px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5);
 }
-/* line 370, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 370, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger .side-3 {
   width: 50px;
   height: 60px;
@@ -821,7 +821,7 @@
   transform: translateZ(23px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
 }
-/* line 379, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 379, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger .side-4 {
   width: 50px;
   height: 60px;
@@ -850,7 +850,7 @@
   transform: translateZ(-23px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
 }
-/* line 388, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 388, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger .side-5 {
   width: 50px;
   height: 46px;
@@ -880,7 +880,7 @@
   animation: FistBGColorX 6s infinite;
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5);
 }
-/* line 415, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 415, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .finger .side-6 {
   width: 50px;
   height: 46px;
@@ -910,7 +910,7 @@
   animation: FistBGColorX 6s infinite;
   box-shadow: inset -25px 0 0 0 rgba(0, 0, 0, 0.4);
 }
-/* line 444, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 444, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .palm {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -933,7 +933,7 @@
   top: 0;
   left: 50%;
 }
-/* line 458, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 458, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .palm > .side-1 {
   width: 100px;
   height: 100px;
@@ -962,7 +962,7 @@
   transform: rotateY(90deg) translateZ(50px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.1);
 }
-/* line 468, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 468, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .palm > .side-2 {
   width: 100px;
   height: 100px;
@@ -991,7 +991,7 @@
   transform: rotateY(90deg);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5);
 }
-/* line 477, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 477, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .palm > .side-3 {
   width: 50px;
   height: 100px;
@@ -1020,7 +1020,7 @@
   transform: translateZ(50px) translateX(50px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
 }
-/* line 487, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 487, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .palm > .side-4 {
   width: 50px;
   height: 100px;
@@ -1049,7 +1049,7 @@
   transform: translateZ(-50px) translateX(50px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
 }
-/* line 497, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 497, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .palm > .side-5 {
   width: 50px;
   height: 100px;
@@ -1079,7 +1079,7 @@
   animation: FistBGColorX 6s infinite;
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5);
 }
-/* line 523, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 523, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .palm > .side-6 {
   width: 50px;
   height: 100px;
@@ -1109,7 +1109,7 @@
   animation: FistBGColorX 6s infinite;
   box-shadow: inset -25px 0 0 0 rgba(0, 0, 0, 0.3);
 }
-/* line 551, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 551, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .wrist {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -1117,7 +1117,7 @@
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-/* line 554, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 554, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .wrist .side-1 {
   width: 100px;
   height: 200px;
@@ -1150,7 +1150,7 @@
   transform: rotateY(90deg) translateZ(25px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.1), inset 0 -70px 0 0 rgba(0, 0, 0, 0.1);
 }
-/* line 565, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 565, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .wrist .side-2 {
   width: 100px;
   height: 200px;
@@ -1183,7 +1183,7 @@
   transform: rotateY(-90deg) translateZ(25px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5), inset 0 -70px 0 0 rgba(0, 0, 0, 0.1);
 }
-/* line 576, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 576, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .wrist .side-3 {
   width: 50px;
   height: 200px;
@@ -1216,7 +1216,7 @@
   transform: translateZ(50px) translateX(25px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3), inset 0 -70px 0 0 rgba(0, 0, 0, 0.1);
 }
-/* line 587, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 587, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .wrist .side-4 {
   width: 50px;
   height: 200px;
@@ -1249,7 +1249,7 @@
   transform: translateZ(-50px) translateX(25px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3), inset 0 -70px 0 0 rgba(0, 0, 0, 0.1);
 }
-/* line 599, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 599, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .wrist .side-5 {
   width: 50px;
   height: 100px;
@@ -1278,7 +1278,7 @@
   animation: FistBGColorX 6s infinite;
   box-shadow: inset 25px 0 0 0 rgba(0, 0, 0, 0.4);
 }
-/* line 625, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 625, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .cuff.lower {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -1286,7 +1286,7 @@
   -o-transform: translateY(0);
   transform: translateY(0);
 }
-/* line 630, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 630, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .cuff {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -1299,7 +1299,7 @@
   -o-transform: translateY(-110px);
   transform: translateY(-110px);
 }
-/* line 636, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 636, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .cuff .side-1 {
   width: 120px;
   height: 60px;
@@ -1328,7 +1328,7 @@
   transform: rotateY(90deg) translateZ(30px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0);
 }
-/* line 645, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 645, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .cuff .side-2 {
   width: 120px;
   height: 60px;
@@ -1357,7 +1357,7 @@
   transform: rotateY(-90deg) translateZ(30px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.4);
 }
-/* line 654, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 654, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .cuff .side-3 {
   width: 60px;
   height: 60px;
@@ -1386,7 +1386,7 @@
   transform: translateZ(60px) translateX(30px);
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.2);
 }
-/* line 663, /Users/silentimp/Games/models/sass/fist-model.scss */
+/* line 663, /Users/silentimp/Games/Models/sass/fist-model.scss */
 .fist-model .cuff .side-4 {
   width: 60px;
   height: 60px;
